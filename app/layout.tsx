@@ -4,6 +4,7 @@ import { Poppins } from 'next/font/google';
 
 import './globals.css';
 import NavBar from '@/components/reusable/NavBar';
+import Providers from './providers';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -22,10 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en' suppressHydrationWarning>
-      <body className={`${poppins.className} bg-background-2`}>
-        <NavBar />
-        {children}
+    <html lang='en'>
+      <body className={`${poppins.className} bg-background-2 dark:bg-gray-800`}>
+        <Providers>
+          <NavBar />
+          {children}
+        </Providers>
       </body>
     </html>
   );
