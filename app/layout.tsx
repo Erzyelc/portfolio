@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 
 import './globals.css';
+import NavBar from '@/components/reusable/NavBar';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -11,7 +12,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Matthew Gajo',
+  title: 'Ryan Carpenter',
   description: 'Portfolio Website',
 };
 
@@ -23,7 +24,8 @@ export default function RootLayout({
   return (
     <html lang='en' suppressHydrationWarning>
       <body className={`${poppins.className} bg-background-2`}>
-        <main className=''>{children}</main>
+        <NavBar />
+        {children}
       </body>
     </html>
   );
