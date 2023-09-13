@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Services = () => {
   return (
     <section className='padding-layout'>
@@ -8,7 +6,7 @@ const Services = () => {
           What
           <div className='relative w-fit'>
             <div className='relative z-10'>service</div>
-            <div className='absolute bottom-0.5 z-0 h-6 w-full bg-[#FFBE62]' />
+            <div className='absolute bottom-0.5 z-0 h-6 w-full bg-accent' />
           </div>
           do I provide
         </h2>

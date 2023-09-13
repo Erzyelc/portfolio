@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -13,7 +12,7 @@ const Hero = () => {
           Professional <br></br>
           <div className='relative w-fit'>
             <div className='relative z-10'>Web Developer</div>
-            <div className='absolute bottom-0.5 z-0 h-6 w-full bg-[#FFBE62]' />
+            <div className='absolute bottom-0.5 z-0 h-6 w-full bg-accent' />
           </div>
           based in USA
         </h1>

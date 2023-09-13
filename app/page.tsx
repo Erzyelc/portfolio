@@ -9,14 +9,12 @@ import React from 'react';
 const page = () => {
   return (
     <main className=''>
-      <section>
-        <Hero />
-        <Skills />
-        <Services />
-        <Experience />
-        <Featured />
-        <Testimonies />
-      </section>
+      <Hero />
+      <Skills />
+      <Services />
+      <Experience />
+      <Featured />
+      <Testimonies />
     </main>
   );
 };
