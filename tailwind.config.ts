@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         secondary: '#FFBE62',
+        accent: '#FFBE62',
         primary: 'rgb(var(--color-primary) / <alpha-value>)',
         background: {
           1: 'rgb(var(--color-bkg) / <alpha-value>)',
