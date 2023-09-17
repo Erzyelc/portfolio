@@ -17,6 +17,7 @@ const Footer = () => {
                 height={24}
                 width={24}
                 alt='instagram'
+                className='hover:opacity-50'
               />
             </Link>
           </li>
@@ -27,6 +28,7 @@ const Footer = () => {
                 height={24}
                 width={24}
                 alt='instagram'
+                className='hover:opacity-50'
               />
             </Link>
           </li>
@@ -37,6 +39,7 @@ const Footer = () => {
                 height={24}
                 width={24}
                 alt='instagram'
+                className='hover:opacity-50'
               />
             </Link>
           </li>
@@ -47,6 +50,7 @@ const Footer = () => {
                 height={24}
                 width={24}
                 alt='instagram'
+                className='hover:opacity-50'
               />
             </Link>
           </li>
