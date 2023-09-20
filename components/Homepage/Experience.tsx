@@ -16,7 +16,7 @@ const Experience = () => {
             Progress and milestones: A simple walkthrough of roles, projects,
             and achievements in my career.
           </p>
-          <hr className='w-[60%]' />
+          <hr className='w-[60%] border border-white-900/50 dark:border-gray-900/40' />
         </section>
         <section className='flex w-1/2 flex-col justify-between'>
           <ExperienceCard
