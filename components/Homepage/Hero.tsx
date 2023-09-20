@@ -26,18 +26,14 @@ const Hero = () => {
             <Link href='/'>My Work</Link>
           </button>
           <div className='relative flex flex-row'>
-            <input
-              type='email'
-              value='ryanjcarpenter88@gmail.com'
-              className='rounded-full bg-white-900 px-16 py-5 text-lg font-semibold text-slate-500 dark:bg-gray-900 dark:text-white-900'
-            />
-            <button>
+            <button className='flex flex-row items-center gap-5 rounded-full bg-white-900 px-12 py-5 text-lg font-semibold text-slate-500 dark:bg-gray-900 dark:text-white-900'>
+              ryanjcarpenter88@gmail.com
               <Image
                 src='./icons/frame.svg'
                 alt='frame'
                 height={21}
                 width={21}
-                className='absolute right-4 top-[25px]'
+                className=''
               />
             </button>
           </div>
