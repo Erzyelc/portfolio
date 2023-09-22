@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import ToggleTheme from '../ToggleTheme';
+import ToggleTheme from './ToggleTheme';
 
 const NavDesktop = () => {
   return (
@@ -15,7 +15,7 @@ const NavDesktop = () => {
             <Link href='/'>Home</Link>
           </li>
           <li className='text-sm font-normal leading-snug text-slate-500  hover:text-blue-700 dark:text-sky-50'>
-            <Link href='/CaseStudies'>Case Studies</Link>
+            <Link href='/caseStudies'>Case Studies</Link>
           </li>
           <li className='text-sm font-normal leading-snug text-slate-500  hover:text-blue-700 dark:text-sky-50'>
             <Link href='/contact'>Contact</Link>
