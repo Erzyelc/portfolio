@@ -30,7 +30,7 @@ export default function RootLayout({
         <Providers>
           <NavBar />
           {children}
-          <ContactMe />
+          {/* <ContactMe /> */}
           <Footer />
         </Providers>
       </body>

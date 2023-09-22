@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { AnimatePresence, motion, sync } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-import ToggleTheme from '../ToggleTheme';
+import ToggleTheme from './ToggleTheme';
 
 const NavMobile = () => {
   const [open, setOpen] = useState(false);

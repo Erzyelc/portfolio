@@ -1,9 +1,10 @@
-import Experience from '@/components/Homepage/Experience';
-import Featured from '@/components/Homepage/Featured';
-import Hero from '@/components/Homepage/Hero';
-import Services from '@/components/Homepage/Services';
-import Skills from '@/components/Homepage/Skills';
-import Testimonies from '@/components/Homepage/Testimonies';
+import Experience from '@/app/Homepage/Experience';
+import Featured from '@/app/Homepage/Featured';
+import Hero from '@/app/Homepage/Hero';
+import Services from '@/app/Homepage/Services';
+import Skills from '@/app/Homepage/Skills';
+import Testimonies from '@/app/Homepage/Testimonies';
+import ContactMe from '@/components/reusable/ContactMe';
 import React from 'react';
 
 const page = () => {
@@ -15,6 +16,7 @@ const page = () => {
       <Experience />
       <Featured />
       <Testimonies />
+      <ContactMe />
     </main>
   );
 };
