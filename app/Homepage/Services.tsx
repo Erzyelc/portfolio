@@ -1,6 +1,11 @@
 import React from 'react';
 import ServicesCard from '../../components/reusable/ServicesCard';
 
+import Mouse from '@/public/icons/mouse.svg';
+import Design from '@/public/icons/design.svg';
+import Code from '@/public/icons/code.svg';
+import Optimization from '@/public/icons/optimization.svg';
+
 const Services = () => {
   return (
     <section className='flex h-[580px] flex-col justify-center gap-14'>
@@ -16,22 +21,22 @@ const Services = () => {
       </section>
       <section className='padding-layout flex flex-row gap-10'>
         <ServicesCard
-          image='/icons/design.svg'
+          SvgIconComponent={Design}
           title='Analytics & SEO'
           description='Implement tracking & analytics tools to monitor website performance & improve SEO.'
         />
         <ServicesCard
-          image='/icons/mouse.svg'
+          SvgIconComponent={Mouse}
           title='Front-End Dev'
           description='Front-end dev includes creating the user interface and interactive elements of websites and apps.'
         />
         <ServicesCard
-          image='/icons/code.svg'
+          SvgIconComponent={Code}
           title='Back-End Dev'
           description='Back-end includes creating the database and server-side of websites and apps.'
         />
         <ServicesCard
-          image='/icons/optimization.svg'
+          SvgIconComponent={Optimization}
           title='Web Optimization'
           description='Web optimization focuses on improving website performance for a smoother user experience'
         />

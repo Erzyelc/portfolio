@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
-import Image from 'next/image';
+import Instagram from '@/public/icons/instagram.svg';
+import X from '@/public/icons/x.svg';
+import Linkedin from '@/public/icons/linkedin.svg';
+import Github from '@/public/icons/github.svg';
 
 const Footer = () => {
   return (
@@ -12,45 +15,41 @@ const Footer = () => {
         <ul className='flex gap-5 '>
           <li>
             <Link href=''>
-              <Image
-                src='./icons/instagram.svg'
+              <Instagram
                 height={24}
                 width={24}
+                className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
                 alt='instagram'
-                className='hover:opacity-50'
               />
             </Link>
           </li>
           <li>
             <Link href=''>
-              <Image
-                src='./icons/x.svg'
+              <X
                 height={24}
                 width={24}
+                className=' hover:opacity-50 '
                 alt='instagram'
-                className='hover:opacity-50'
               />
             </Link>
           </li>
           <li>
             <Link href=''>
-              <Image
-                src='./icons/linkedin.svg'
+              <Linkedin
                 height={24}
                 width={24}
+                className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
                 alt='instagram'
-                className='hover:opacity-50'
               />
             </Link>
           </li>
           <li>
             <Link href=''>
-              <Image
-                src='./icons/github.svg'
+              <Github
                 height={24}
                 width={24}
+                className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
                 alt='instagram'
-                className='hover:opacity-50'
               />
             </Link>
           </li>

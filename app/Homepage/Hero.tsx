@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className=' padding-layout flex flex-col  items-center md:flex-row'>
-      <section className='flex  w-1/2 flex-col gap-8 pt-20 '>
-        <h3 className='text-sm font-semibold uppercase text-blue-700 dark:text-blue-500'>
+    <section className='md:padding-layout flex flex-col  items-center md:flex-row'>
+      <section className='flex flex-col gap-8 pt-20 md:w-1/2'>
+        <h3 className='text-sm font-semibold uppercase text-blue-700 dark:text-blue-500 md:text-xl'>
           Hi, I am Ryan
         </h3>
-        <h1>
+        <h1 className='text-[42px] font-bold text-gray-900 dark:text-white-900 md:text-[64px]'>
           Professional <br></br>
           <div className='relative w-fit'>
             <div className='relative z-10'>Web Developer</div>
@@ -25,7 +25,7 @@ const Hero = () => {
           <button className='rounded-full bg-blue-700 px-12 py-5 text-lg font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500'>
             <Link href='/caseStudies'>My Work</Link>
           </button>
-          <div className='relative flex flex-row'>
+          <div className='relative hidden flex-row md:flex'>
             <button className='flex flex-row items-center gap-5 rounded-full bg-white-900 px-12 py-5 text-lg font-semibold text-slate-500 transition-all hover:scale-105 dark:bg-gray-900 dark:text-white-900'>
               ryanjcarpenter88@gmail.com
               <Image

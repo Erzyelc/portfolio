@@ -1,4 +1,9 @@
 import ExperienceCard from '../../components/reusable/ExperienceCard';
+import DigitalOcean from '@/public/icons/digitalocean.svg';
+import Slack from '@/public/icons/slack.svg';
+import Firefox from '@/public/icons/firefox.svg';
+import Mailchimp from '@/public/icons/mailchimp.svg';
+import Line from '@/public/img/line.svg';
 
 const Experience = () => {
   return (
@@ -16,26 +21,34 @@ const Experience = () => {
             Progress and milestones: A simple walkthrough of roles, projects,
             and achievements in my career.
           </p>
-          <hr className='w-[60%] border border-white-900/50 dark:border-gray-900/40' />
+          <section className='flex items-center '>
+            <Line
+              src='/img/line.svg'
+              width={356}
+              height={80}
+              alt='line'
+              className=' stroke-current text-white-900 dark:text-gray-900'
+            />
+          </section>
         </section>
         <section className='flex w-1/2 flex-col justify-between'>
           <ExperienceCard
-            image='./icons/slack.svg'
+            SvgIconComponent={Slack}
             title='Slack'
             description='Product Design - 4 Years Experience'
           />
           <ExperienceCard
-            image='/icons/firefox.svg'
+            SvgIconComponent={Firefox}
             title='FireFox'
             description='Sr. UI Design - 4 Years Experience'
           />
           <ExperienceCard
-            image='/icons/digitalocean.svg'
+            SvgIconComponent={DigitalOcean}
             title='Digital Ocean'
             description='UI & Motion Designer - 4 Years Experience'
           />
           <ExperienceCard
-            image='/icons/mailchimp.svg'
+            SvgIconComponent={Mailchimp}
             title='Mailchimp'
             description='UI Designer - 4 Years Experience'
           />
