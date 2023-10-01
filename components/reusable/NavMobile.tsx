@@ -1,26 +1,27 @@
 'use client';
 
 import React, { useState } from 'react';
-import { AnimatePresence, motion, sync } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import ToggleTheme from './ToggleTheme';
+
+import Menu from '@/public/icons/hamburger.svg';
 
 const NavMobile = () => {
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen((isOpen) => !isOpen);
   return (
     <motion.div>
-      <nav className='padding-layout flex h-[72px] items-center justify-between '>
+      <nav className='padding-layout flex h-[72px] items-center justify-between border-b border-white-800/50 bg-white-800 dark:border-gray-900/50 dark:bg-gray-800'>
         <Link href='/'>
           <Image src='/img/logo.svg' alt={'logo'} height={45} width={45} />
         </Link>
-        <Image
-          src='/icons/hamburger.svg'
+        <Menu
           alt={'menu'}
           height={24}
           width={24}
-          className='cursor-pointer'
+          className='cursor-pointer fill-black-0 dark:fill-white-900'
           onClick={toggle}
         />
       </nav>
@@ -59,7 +60,12 @@ const NavMobile = () => {
                       <Link href='/'>Contact</Link>
                     </li>
                     <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
-                      <Link href='/'>Resume</Link>
+                      <Link
+                        href='https://docs.google.com/document/d/1VKJPgTiRczl6vK74tBNGTJ145L_yEcWp8xgYG8C3_40/edit?usp=sharing'
+                        target='_blank'
+                      >
+                        Resume
+                      </Link>
                     </li>
                   </div>
                 </ul>

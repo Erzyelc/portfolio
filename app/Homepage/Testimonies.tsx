@@ -2,7 +2,7 @@ import TestimonyCard from '../../components/reusable/TestimonyCard';
 
 const Testimonies = () => {
   return (
-    <section className='flex h-[590px] flex-col items-center justify-center gap-10'>
+    <section className=' padding-layout flex h-[590px] flex-col items-center justify-center gap-14'>
       <h2 className='flex flex-row gap-3'>
         What
         <div className='relative w-fit'>
