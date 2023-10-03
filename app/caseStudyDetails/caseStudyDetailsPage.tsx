@@ -88,11 +88,13 @@ const Jobit = () => {
         </section>
         <section className='flex flex-row gap-6'>
           <RelatedDetails
+            link='/caseStudyDetails'
             image='/img/morrentfigma.svg'
             title='Jobit'
             description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
           />
           <RelatedDetails
+            link='/caseStudyDetails/jobit'
             image='/img/hipnodefigma.svg'
             title='Hipnode'
             description='Hipnode, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
