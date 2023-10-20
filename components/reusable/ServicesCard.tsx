@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import image from 'next/image';
 
 type Props = {
   SvgIconComponent: React.ReactElement;

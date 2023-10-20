@@ -6,7 +6,6 @@ import './globals.css';
 import NavBar from '@/components/reusable/NavBar';
 import Providers from './providers';
 import Footer from '@/components/reusable/Footer';
-import ContactMe from '@/components/reusable/ContactMe';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -15,8 +14,13 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Ryan Carpenter',
+  title: 'RJC',
   description: 'Portfolio Website',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
