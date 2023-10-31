@@ -20,7 +20,7 @@ const Featured = () => {
           descriptionFE='ReactJS, Next.js'
           descriptionBE='Supabase, Nodejs'
           link='/caseStudyDetails'
-          image='./img/Morrent.svg'
+          image='/img/Morrent.svg'
           styles='relative flex h-[440px] w-full justify-around rounded-[20px] bg-blue-500'
         />
         <FeaturedCard
@@ -28,7 +28,7 @@ const Featured = () => {
           descriptionFE='ReactJS, Next.js'
           descriptionBE='Supabase, Nodejs'
           link='/caseStudyDetails/jobit'
-          image='./img/Jobit.svg'
+          image='/img/Jobit.svg'
           styles='relative flex flex-row-reverse h-[440px] w-full justify-around rounded-[20px] bg-emerald-500'
         />
         <FeaturedCard
@@ -36,7 +36,7 @@ const Featured = () => {
           descriptionFE='ReactJS, Next.js'
           descriptionBE='Supabase, Nodejs'
           link='/caseStudyDetails/hipnode'
-          image='./img/Hipnode.svg'
+          image='/img/Hipnode.svg'
           styles='relative flex h-[440px] w-full justify-around rounded-[20px] bg-orange-500'
         />
         <section className='flex justify-center'>
