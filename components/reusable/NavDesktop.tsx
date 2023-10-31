@@ -11,7 +11,7 @@ const NavDesktop = () => {
   const currentRoute = usePathname();
   return (
     <nav className='flex h-[80px] w-full justify-between border-b border-white-800/50 bg-white-800 dark:border-gray-900/50 dark:bg-gray-800'>
-      <ul className='padding-layout flex w-full flex-row items-center justify-between'>
+      <ul className='padding-layout flex w-full cursor-pointer flex-row items-center justify-between'>
         <Link href='/'>
           <Image src={'/img/logo.svg'} alt={'logo'} height={45} width={45} />
         </Link>

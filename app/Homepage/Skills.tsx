@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/no-custom-classname */
 'use client';
 
 import Link from 'next/link';
@@ -13,7 +14,7 @@ const Skills = () => {
           <div className='absolute bottom-0.5 z-0 h-3.5 w-full bg-accent' />
         </h2>
       </section>
-      <section className='flex h-64 w-[1270px] flex-wrap items-center justify-center gap-10'>
+      <section className=' flex h-64 w-[600px] flex-wrap items-center justify-center gap-10 md:w-[1270px]'>
         <HoverCard.Root>
           <HoverCard.Trigger>
             <SkillCard
@@ -22,7 +23,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 JavaScript
@@ -43,7 +44,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>React</h4>
               <Link href='/caseStudies'>
@@ -62,7 +63,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='animate-slide-up-and-fade animate-slide-left-and-fade animate-slide-right-and-fade animate-slide-down-and-fade inset-0 flex w-[300px] flex-col justify-center gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>Redux</h4>
               <Link href='/caseStudies'>
@@ -81,7 +82,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 Next.JS
@@ -102,7 +103,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 TypeScript
@@ -123,7 +124,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>HTML</h4>
               <Link href='/caseStudies'>
@@ -142,7 +143,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>CSS</h4>
               <Link href='/caseStudies'>
@@ -161,7 +162,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>SASS</h4>
               <Link href='/caseStudies'>
@@ -180,7 +181,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 Material UI
@@ -201,7 +202,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 Tailwind
@@ -222,7 +223,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 Framer Motion
@@ -243,7 +244,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>Git</h4>
               <Link href='/caseStudies'>
@@ -262,7 +263,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade z-50 flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade z-50 flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 Github
@@ -283,7 +284,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 Node.JS
@@ -304,7 +305,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 Express
@@ -325,7 +326,7 @@ const Skills = () => {
             />
           </HoverCard.Trigger>
           <HoverCard.Portal>
-            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-20 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
+            <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
               <h4 className='text-[32px] font-semibold text-gray-900'>
                 MongoDB
