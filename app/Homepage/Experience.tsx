@@ -1,8 +1,4 @@
 import ExperienceCard from '../../components/reusable/ExperienceCard';
-import DigitalOcean from '@/public/icons/digitalocean.svg';
-import Slack from '@/public/icons/slack.svg';
-import Firefox from '@/public/icons/firefox.svg';
-import Mailchimp from '@/public/icons/mailchimp.svg';
 import Line from '@/public/img/line.svg';
 
 const Experience = () => {
@@ -33,24 +29,24 @@ const Experience = () => {
         </section>
         <section className='flex w-1/2 flex-col justify-between'>
           <ExperienceCard
-            SvgIconComponent={Slack}
-            title='Slack'
-            description='Product Design - 4 Years Experience'
+            image='/img/servicewhale.svg'
+            title='Servicewhale'
+            description='Director of Customer Success - 4 Years Experience'
           />
           <ExperienceCard
-            SvgIconComponent={Firefox}
-            title='FireFox'
-            description='Sr. UI Design - 4 Years Experience'
+            image='/img/jsm.png'
+            title='JSM Masterclass'
+            description='Full Stack Developer - 4 Months Experience'
           />
           <ExperienceCard
-            SvgIconComponent={DigitalOcean}
-            title='Digital Ocean'
-            description='UI & Motion Designer - 4 Years Experience'
+            image='/img/apple.svg'
+            title='Apple'
+            description='Applecare Advisor / Specialist - 3 Years Experience'
           />
           <ExperienceCard
-            SvgIconComponent={Mailchimp}
-            title='Mailchimp'
-            description='UI Designer - 4 Years Experience'
+            image='/img/raymour.svg'
+            title='Raymour & Flanigan'
+            description='Team Lead - 4 Years Experience'
           />
         </section>
       </section>

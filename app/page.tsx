@@ -9,7 +9,7 @@ import React from 'react';
 
 const page = () => {
   return (
-    <main className=''>
+    <main>
       <Hero />
       <Skills />
       <Services />
