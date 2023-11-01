@@ -17,7 +17,7 @@ const caseStudyDetails = () => {
       <CaseStudyHeader
         description='WEB DEV PROJECT'
         title='Morrent - A Car Rental Website'
-        image='/img/Morrent.svg'
+        image='/img/morrent.svg'
         demoLink='#'
         sourceCodeLink='#'
       />

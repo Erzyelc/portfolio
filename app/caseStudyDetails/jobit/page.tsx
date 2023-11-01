@@ -15,7 +15,7 @@ const Jobit = () => {
       <CaseStudyHeader
         description='WEB DEV PROJECT'
         title='Jobit - A Job Finding Application'
-        image='/img/Jobit.svg'
+        image='/img/jobit.svg'
         demoLink='#'
         sourceCodeLink='#'
       />
