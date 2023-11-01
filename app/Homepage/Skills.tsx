@@ -38,10 +38,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/react.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/react.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -57,10 +54,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/reduxColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/reduxColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='animate-slide-up-and-fade animate-slide-left-and-fade animate-slide-right-and-fade animate-slide-down-and-fade inset-0 flex w-[300px] flex-col justify-center gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] transition-all'>
@@ -76,10 +70,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/nextColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/nextColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -97,10 +88,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/tsColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/tsColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -118,10 +106,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/htmlColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/htmlColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -137,10 +122,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/cssColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/cssColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -156,10 +138,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/sassColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/sassColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -175,10 +154,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/muiColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/muiColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -196,10 +172,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/tailwindColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/tailwindColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -217,10 +190,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/motionColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/motionColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -238,10 +208,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/gitColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/gitColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -257,10 +224,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/githubColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/githubColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade z-50 flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -278,10 +242,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/nodejsColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/nodejsColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -299,10 +260,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/exColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/exColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -320,10 +278,7 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/mongodbColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/mongodbColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
