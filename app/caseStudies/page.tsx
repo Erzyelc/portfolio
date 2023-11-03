@@ -42,7 +42,7 @@ const page = () => {
             img='./img/hipnodelaptop.svg'
             styles='relative flex items-baseline justify-end rounded-2xl  bg-orange-500  px-[80px] pt-[72px]'
           />
-          <CaseStudyCard
+          {/* <CaseStudyCard
             link={'/caseStudyDetails/tripguide'}
             title='Trip Guide'
             description='Booking Platform'
@@ -55,7 +55,7 @@ const page = () => {
             description='Crowdfunding Platform'
             img='./img/virtuelaptop.svg'
             styles='relative flex items-baseline justify-end rounded-2xl  bg-green-400  px-[80px] pt-[72px]'
-          />
+          /> */}
           <CaseStudyCard
             link={'/caseStudyDetails/filmpire'}
             title='Filmpire'

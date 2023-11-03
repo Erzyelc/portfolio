@@ -21,11 +21,11 @@ const Filmpire = () => {
       />
       <RoleDetails
         role='Role'
-        title='Frontend Developer'
+        title='Fullstack Developer'
         startDate='Start Date'
         endDate='End Date'
-        startDateString='24/02/2023'
-        endDateString='02/03/2023'
+        startDateString='4/10/2023'
+        endDateString='06/03/2023'
       />
       <section className='flex flex-col flex-wrap items-center justify-center bg-white-900 py-20 dark:bg-gray-900'>
         <section className='flex max-w-[878px] flex-wrap items-center justify-between gap-12'>
@@ -53,14 +53,14 @@ const Filmpire = () => {
       </section>
       <section className='padding-layout flex justify-center py-20'>
         <ProjectDescription
-          description='Morent, a cutting-edge car rental application that was developed using the MERN stack. The app boasts a dynamic homepage that showcases featured vehicles, along with convenient pickup & drop-off location options & a comprehensive list of available cars. '
-          description2='My team and I also developed the car listing page which offers a search bar and various filtering options for users to find the perfect vehicle. Additionally, it has a car details page which provides users with detailed information along with suggestions for other recommended vehicles. '
-          description3='Car owners are also able to list their cars for rent through our Add Car page, while users can easily track their rented and rented-out cars through their profile page. Overall, I have created an intuitive and user-friendly MVP version of the platform that will make renting a car a breeze.'
+          description='Filmpire combines the desire to unleash powerful creativity with the industrys most advanced JavaScript tools including React.js, Material UI, Alan AI, and more. As a way to provide hands on, practical experience for intermediate to expert software developers seeking fulfilling opportunities within their career.'
+          description2='This app is a great option to have your own personal imdb that was built with a great UI and utilizes all of the best modern technology.'
+          description3=''
         />
       </section>
       <section>
         <ProblemStatement
-          description='One of the main problems that people face when looking to rent a car is the hassle of finding a reliable and user-friendly platform to search for and book rental cars. In addition, car owners who want to rent out their vehicles often struggle to find a suitable platform to list their cars and manage their rentals.'
+          description='One of the main problems people face today is trying to find every movie and actor immediately at the tip of the fingers. Filmpire gives users the ability to search for any movie or actor and get the information they need.'
           image='/img/filmpireproblem.jpg'
         />
       </section>
@@ -91,13 +91,13 @@ const Filmpire = () => {
             link='/caseStudyDetails'
             image='/img/morrentfigma.svg'
             title='Morrent'
-            description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+            description='Morrent, a cutting-edge car rental application that was developed using the MERN stack...'
           />
           <RelatedDetails
             link='/caseStudyDetails/jobit'
             image='/img/jobitfigma.svg'
             title='Jobit'
-            description='Hipnode, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+            description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
           />
         </section>
       </section>

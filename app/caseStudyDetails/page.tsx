@@ -23,11 +23,11 @@ const caseStudyDetails = () => {
       />
       <RoleDetails
         role='Role'
-        title='Frontend Developer'
+        title='Fullstack Developer'
         startDate='Start Date'
         endDate='End Date'
-        startDateString='24/02/2023'
-        endDateString='02/03/2023'
+        startDateString='08/01/2023'
+        endDateString='09/01/2023'
       />
       <section className='flex flex-col flex-wrap items-center justify-center bg-white-900 py-20 dark:bg-gray-900'>
         <section className='flex max-w-[878px] flex-wrap items-center justify-between gap-12'>
@@ -90,16 +90,16 @@ const caseStudyDetails = () => {
         </section>
         <section className='flex flex-row gap-6'>
           <RelatedDetails
-            link='/caseStudyDetails/jobit'
-            image='/img/jobitfigma.svg'
-            title='Jobit'
-            description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
-          />
-          <RelatedDetails
             link='/caseStudyDetails/hipnode'
             image='/img/hipnodefigma.svg'
             title='Hipnode'
             description='Hipnode, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+          />
+          <RelatedDetails
+            link='/caseStudyDetails/jobit'
+            image='/img/jobitfigma.svg'
+            title='Jobit'
+            description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
           />
         </section>
       </section>

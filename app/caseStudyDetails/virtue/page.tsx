@@ -88,7 +88,7 @@ const Virtue = () => {
         </section>
         <section className='flex flex-row gap-6'>
           <RelatedDetails
-            link='/caseStudyDetails/morrent'
+            link='/caseStudyDetails'
             image='/img/morrentfigma.svg'
             title='Morrent'
             description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'

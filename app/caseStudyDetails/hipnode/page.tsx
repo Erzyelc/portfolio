@@ -21,11 +21,11 @@ const Hipnode = () => {
       />
       <RoleDetails
         role='Role'
-        title='Frontend Developer'
+        title='Fulstack Developer'
         startDate='Start Date'
         endDate='End Date'
-        startDateString='24/02/2023'
-        endDateString='02/03/2023'
+        startDateString='10/1/2023'
+        endDateString='12/1/2023'
       />
       <section className='flex flex-col flex-wrap items-center justify-center bg-white-900 py-20 dark:bg-gray-900'>
         <section className='flex max-w-[878px] flex-wrap items-center justify-between gap-12'>
@@ -53,14 +53,14 @@ const Hipnode = () => {
       </section>
       <section className='padding-layout flex justify-center py-20'>
         <ProjectDescription
-          description='Morent, a cutting-edge car rental application that was developed using the MERN stack. The app boasts a dynamic homepage that showcases featured vehicles, along with convenient pickup & drop-off location options & a comprehensive list of available cars. '
-          description2='My team and I also developed the car listing page which offers a search bar and various filtering options for users to find the perfect vehicle. Additionally, it has a car details page which provides users with detailed information along with suggestions for other recommended vehicles. '
-          description3='Car owners are also able to list their cars for rent through our Add Car page, while users can easily track their rented and rented-out cars through their profile page. Overall, I have created an intuitive and user-friendly MVP version of the platform that will make renting a car a breeze.'
+          description='Hipnode is a phenomenal app that takes social media to the next level. It gives users the ability to create a profile, add posts, and even comment on other users posts. '
+          description2='My team and I also developed an amazing way to create groups and join other groups. This is a great tool that gives flexibility to the user to find the perfect group for them, so that the user can really hone in on their skills and find content that is relevant to them.'
+          description3=''
         />
       </section>
       <section>
         <ProblemStatement
-          description='One of the main problems that people face when looking to rent a car is the hassle of finding a reliable and user-friendly platform to search for and book rental cars. In addition, car owners who want to rent out their vehicles often struggle to find a suitable platform to list their cars and manage their rentals.'
+          description='Lets face it, social media is the problem! There is a lot of content that most people just do not care about to see, with Hipnode you can join groups and see more of the interesting content you want to see day to day.'
           image='/img/hipnodeproblem.svg'
         />
       </section>
@@ -88,16 +88,16 @@ const Hipnode = () => {
         </section>
         <section className='flex flex-row gap-6'>
           <RelatedDetails
-            link='/caseStudyDetails/morrent'
+            link='/caseStudyDetails'
             image='/img/morrentfigma.svg'
             title='Morrent'
-            description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+            description='Morrent, a cutting-edge car rental application that was developed using the MERN stack...'
           />
           <RelatedDetails
             link='/caseStudyDetails/jobit'
             image='/img/jobitfigma.svg'
             title='jobit'
-            description='Hipnode, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+            description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
           />
         </section>
       </section>

@@ -54,10 +54,10 @@ const NavMobile = () => {
                       <Link href='/'>Home</Link>
                     </li>
                     <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
-                      <Link href='/'>Case Studies</Link>
+                      <Link href='/caseStudies'>Case Studies</Link>
                     </li>
                     <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
-                      <Link href='/'>Contact</Link>
+                      <Link href='/contact'>Contact</Link>
                     </li>
                     <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
                       <Link
