@@ -17,10 +17,7 @@ const Skills = () => {
       <section className=' flex h-64 w-[600px] flex-wrap items-center justify-center gap-10 md:w-[1270px]'>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard
-              image='/icons/jsColored.svg'
-              styles={'grayscale hover:grayscale-0'}
-            />
+            <SkillCard image='/icons/jsColored.svg' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
@@ -138,15 +135,17 @@ const Skills = () => {
         </HoverCard.Root>
         <HoverCard.Root>
           <HoverCard.Trigger>
-            <SkillCard image='/icons/sassColored.svg' styles={''} />
+            <SkillCard image='/icons/supabase.png' styles={''} />
           </HoverCard.Trigger>
           <HoverCard.Portal>
             <HoverCard.Content className='data-[side=bottom]:animate-slideUpAndFade data-[side=right]:animate-slideLeftAndFade data-[side=left]:animate-slideRightAndFade data-[side=top]:animate-slideDownAndFade flex w-[300px] flex-col justify-center  gap-6 rounded-[10px] bg-white-900 p-10 shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] data-[state=open]:transition-all'>
               <HoverCard.Arrow />
-              <h4 className='text-[32px] font-semibold text-gray-900'>SASS</h4>
+              <h4 className='text-[32px] font-semibold text-gray-900'>
+                Supabase
+              </h4>
               <Link href='/caseStudies'>
                 <h5 className='text-sm font-thin text-gray-800'>
-                  View Projects With SASS
+                  View Projects With Supabase
                 </h5>
               </Link>
             </HoverCard.Content>
