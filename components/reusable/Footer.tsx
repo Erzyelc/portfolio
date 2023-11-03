@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
 import Instagram from '@/public/icons/instagram.svg';
-import X from '@/public/icons/x.svg';
 import Linkedin from '@/public/icons/linkedin.svg';
 import Github from '@/public/icons/github.svg';
 
@@ -14,7 +13,10 @@ const Footer = () => {
         </p>
         <ul className='flex gap-5 '>
           <li>
-            <Link href=''>
+            <Link
+              href='https://www.instagram.com/ryanjcarpenter/'
+              target='_blank'
+            >
               <Instagram
                 height={24}
                 width={24}
@@ -24,17 +26,10 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href=''>
-              <X
-                height={24}
-                width={24}
-                className=' hover:opacity-50 '
-                alt='instagram'
-              />
-            </Link>
-          </li>
-          <li>
-            <Link href=''>
+            <Link
+              href='https://www.linkedin.com/in/ryanjcarpenter'
+              target='_blank'
+            >
               <Linkedin
                 height={24}
                 width={24}
@@ -44,7 +39,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href=''>
+            <Link href='https://github.com/Erzyelc' target='_blank'>
               <Github
                 height={24}
                 width={24}
