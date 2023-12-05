@@ -32,12 +32,12 @@ const Featured = () => {
           styles='relative flex flex-row-reverse h-[440px] w-full justify-around rounded-[20px] bg-emerald-500'
         />
         <FeaturedCard
-          title='Hipnode - A Social Media Application'
+          title='Filmpire - Ai Powered Movie Application'
           descriptionFE='ReactJS, Next.js'
-          descriptionBE='Supabase, Nodejs'
-          link='/caseStudyDetails/hipnode'
-          image='/img/hipnode.svg'
-          styles='relative flex h-[440px] w-full justify-around rounded-[20px] bg-orange-500'
+          descriptionBE='Nodejs'
+          link='/caseStudyDetails/filmpire'
+          image='/img/Filmpire (1).svg'
+          styles='relative flex h-[440px] w-full justify-around rounded-[20px] bg-red-600'
         />
         <section className='flex justify-center'>
           <Link href='/caseStudies'>

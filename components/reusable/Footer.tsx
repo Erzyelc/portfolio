@@ -21,7 +21,7 @@ const Footer = () => {
                 height={24}
                 width={24}
                 className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
-                alt='instagram'
+                alt='Instagram'
               />
             </Link>
           </li>
@@ -34,7 +34,7 @@ const Footer = () => {
                 height={24}
                 width={24}
                 className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
-                alt='instagram'
+                alt='Linkedin'
               />
             </Link>
           </li>
@@ -44,7 +44,7 @@ const Footer = () => {
                 height={24}
                 width={24}
                 className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
-                alt='instagram'
+                alt='Github'
               />
             </Link>
           </li>

@@ -17,7 +17,10 @@ const Sidebar = () => {
         </h4>
         <ul className='flex gap-8'>
           <li>
-            <Link href=''>
+            <Link
+              href='https://www.instagram.com/ryanjcarpenter/'
+              target='_blank'
+            >
               <Instagram
                 height={24}
                 width={24}
@@ -27,32 +30,25 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link href=''>
-              <X
-                height={24}
-                width={24}
-                className=' hover:opacity-50 '
-                alt='instagram'
-              />
-            </Link>
-          </li>
-          <li>
-            <Link href=''>
+            <Link
+              href='https://www.linkedin.com/in/ryanjcarpenter'
+              target='_blank'
+            >
               <Linkedin
                 height={24}
                 width={24}
                 className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
-                alt='instagram'
+                alt='Linkedin'
               />
             </Link>
           </li>
           <li>
-            <Link href=''>
+            <Link href='https://github.com/Erzyelc' target='_blank'>
               <Github
                 height={24}
                 width={24}
                 className='fill-[#778295] hover:opacity-50 dark:fill-white-900'
-                alt='instagram'
+                alt='Github'
               />
             </Link>
           </li>
