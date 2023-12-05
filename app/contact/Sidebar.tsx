@@ -2,7 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 
 import Instagram from '@/public/icons/instagram.svg';
-import X from '@/public/icons/x.svg';
 import Linkedin from '@/public/icons/linkedin.svg';
 import Github from '@/public/icons/github.svg';
 import Phone from '@/public/icons/Call.svg';
