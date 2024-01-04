@@ -30,12 +30,20 @@ const CaseStudyHeader = ({
         <Image src={image} alt='project-photo' height={700} width={700} />
       </section>
       <section className='flex flex-row gap-24 text-xl font-semibold text-blue-700 '>
-        <Link href={demoLink} className='flex items-center gap-2'>
+        <Link
+          href={demoLink}
+          target='_blank'
+          className='flex items-center gap-2'
+        >
           <Image src='/icons/globe.svg' width={20} height={0} alt='globe' />
           Demo Site
           <Image src='/icons/arrowmini.svg' width={20} height={0} alt='arrow' />
         </Link>
-        <Link href={sourceCodeLink} className='flex items-center gap-2'>
+        <Link
+          href={sourceCodeLink}
+          target='_blank'
+          className='flex items-center gap-2'
+        >
           <Image src='/icons/minigit.svg' width={20} height={0} alt='gitmini' />
           Source Code
           <Image src='/icons/arrowmini.svg' width={20} height={0} alt='arrow' />

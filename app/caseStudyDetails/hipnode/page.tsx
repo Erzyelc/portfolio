@@ -17,7 +17,7 @@ const Hipnode = () => {
         title='Hipnode - Social Platform for Developers'
         image='/img/hipnode.svg'
         demoLink='#'
-        sourceCodeLink='#'
+        sourceCodeLink='https://github.com/Erzyelc/Hipnode'
       />
       <RoleDetails
         role='Role'

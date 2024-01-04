@@ -19,7 +19,7 @@ const caseStudyDetails = () => {
         title='Morrent - A Car Rental Website'
         image='/img/morrent.svg'
         demoLink='#'
-        sourceCodeLink='#'
+        sourceCodeLink='https://github.com/Erzyelc/Morrent'
       />
       <RoleDetails
         role='Role'

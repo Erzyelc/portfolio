@@ -17,7 +17,7 @@ const Jobit = () => {
         title='Jobit - A Job Finding Application'
         image='/img/jobit.svg'
         demoLink='#'
-        sourceCodeLink='#'
+        sourceCodeLink='https://github.com/Erzyelc/Jobit'
       />
       <RoleDetails
         role='Role'

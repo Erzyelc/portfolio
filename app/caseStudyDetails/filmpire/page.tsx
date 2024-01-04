@@ -16,8 +16,8 @@ const Filmpire = () => {
         description='WEB DEV PROJECT'
         title='Filmpire - Ai-Powered Movie Application'
         image='/img/Filmpire (1).svg'
-        demoLink='#'
-        sourceCodeLink='#'
+        demoLink='https://filmpirerjc.netlify.app/'
+        sourceCodeLink='https://github.com/Erzyelc/Filmpire'
       />
       <RoleDetails
         role='Role'
