@@ -13,10 +13,10 @@ const page = () => {
       <Hero />
       <Skills />
       <Services />
-      <Experience />
+      {/* <Experience />
       <Featured />
       <Testimonies />
-      <ContactMe />
+      <ContactMe /> */}
     </main>
   );
 };

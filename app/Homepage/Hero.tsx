@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className='padding-layout  flex w-full flex-col items-center  md:flex-row'>
-      <section className='padding-layout flex flex-col gap-5 pt-16 md:w-1/2 md:gap-8 md:pt-20'>
+    <section className='md:padding-layout flex flex-col items-center md:mb-20 md:w-full md:flex-row'>
+      <section className='md:padding-layout flex w-[400px] flex-col gap-5 pt-16 md:w-1/2 md:gap-8 md:pt-14'>
         <h3 className='text-sm font-semibold uppercase text-blue-700 dark:text-blue-500 md:text-xl'>
           Hi, I am Ryan
         </h3>
@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
           based in USA
         </h1>
-        <p className='w-[511px] text-xs font-normal leading-[18.60px] text-slate-500 dark:text-sky-50 md:text-lg'>
+        <p className='w-[338px] text-xs font-normal leading-[18.60px] text-slate-500 dark:text-sky-50 md:w-[511px] md:text-lg'>
           Transforming the web one line of code at a time: Crafting cutting-edge
           digital experiences with precision, passion, and a profound commitment
           to excellence
@@ -39,12 +39,14 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className='relative flex h-[550px] w-1/2 items-center justify-center '>
+      <section className='relative flex h-[350px] w-1/2 items-center justify-center md:h-[550px]'>
         <Image
           src='./img/computer.svg'
           alt={'computer'}
-          fill
-          priority
+          height={700}
+          width={700}
+          // fill
+          // priority
           className='object-contain'
         />
       </section>
