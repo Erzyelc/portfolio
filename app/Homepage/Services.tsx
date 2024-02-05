@@ -3,18 +3,13 @@ import ServicesCard from '../../components/reusable/ServicesCard';
 
 const Services = () => {
   return (
-    <section className='flex h-[580px] flex-col justify-center gap-14'>
-      <section className='flex justify-center'>
-        <h2 className='flex gap-3'>
-          What
-          <div className='relative w-fit'>
-            <div className='relative z-10'>service</div>
-            <div className='absolute bottom-0.5 z-0 h-6 w-full bg-accent' />
-          </div>
-          do I provide
-        </h2>
-      </section>
-      <section className='padding-layout flex flex-col gap-10 md:flex-row'>
+    <section className='flex flex-col items-center gap-10 bg-white-900 py-12 dark:bg-black-300 sm:bg-white-800 xl:px-[5.31rem] xl:pb-[8.9375rem] xl:pt-[4.5rem]'>
+      <div className='flex'>
+        <h1 className='text-center text-[36px] font-bold text-black-200  dark:text-white-900'>
+          What <span className='highlight'>service</span> do I provide
+        </h1>
+      </div>
+      <div className='grid grid-cols-1 gap-10 sm:grid-cols-2 xl:grid xl:grid-cols-4 xl:gap-[2.51rem]'>
         <ServicesCard
           image='/icons/design.svg'
           title='Analytics & SEO'
@@ -35,7 +30,7 @@ const Services = () => {
           title='Web Optimization'
           description='Web optimization focuses on improving website performance for a smoother user experience'
         />
-      </section>
+      </div>
     </section>
   );
 };

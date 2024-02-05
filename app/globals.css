@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  .highlight {
+    position: relative;
+    z-index: 1;
+  }
+  .highlight::before {
+    content: ''; /* Ensure the pseudo-element has content */
+    position: absolute;
+    display: block;
+    border-bottom: 18px solid #ffbe62; /* Define the bottom border */
+    top: 58%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
   :root {
     --color-primary: 2 82 205;
     --color-bkg: 255 255 255;
