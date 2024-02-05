@@ -17,6 +17,11 @@
     left: 0;
     z-index: -1;
   }
+  .sm-reg {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.7px;
+  }
   :root {
     --color-primary: 2 82 205;
     --color-bkg: 255 255 255;
