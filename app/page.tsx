@@ -1,7 +1,7 @@
 import Hero from '@/app/Homepage/Hero';
 import Skills from '@/app/Homepage/Skills';
 // import Testimonies from '@/app/Homepage/Testimonies';
-// import ContactMe from '@/components/reusable/ContactMe';
+import ContactMe from '@/components/reusable/ContactMe';
 import React from 'react';
 import Services from './Homepage/Services';
 import Experience from './Homepage/Experience';
@@ -15,9 +15,8 @@ const page = () => {
       <Services />
       <Experience />
       <Featured />
-      {/* }
-      <Testimonies />
-      <ContactMe /> */}
+      {/* <Testimonies /> */}
+      <ContactMe />
     </main>
   );
 };

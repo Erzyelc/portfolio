@@ -4,7 +4,7 @@ import FeaturedCard from '../../components/reusable/FeaturedCard';
 
 const Featured = () => {
   return (
-    <section className='justify-between bg-white-900 pb-20 pt-28 dark:bg-gray-900'>
+    <section className='justify-between bg-white-900 pb-20  dark:bg-gray-900'>
       <section id='featuredProjects' className='bg-white-900 dark:bg-black-200'>
         <section className='padding-layout flex items-center justify-center pt-20'>
           <h2 className='flex gap-3 text-[36px] md:text-[48px]'>
@@ -22,7 +22,7 @@ const Featured = () => {
             descriptionBE='Supabase, Nodejs'
             link='/caseStudyDetails'
             image='/img/morrent.svg'
-            styles='relative flex h-[514px] md:h-[440px] rounded-[20px] bg-blue-500'
+            styles='hover:scale-105 transition-all relative flex h-[514px] md:h-[440px] rounded-[20px] bg-blue-500'
           />
           <FeaturedCard
             title='JobIT - A Job Finding Application'
@@ -30,7 +30,7 @@ const Featured = () => {
             descriptionBE='Supabase, Nodejs'
             link='/caseStudyDetails/jobit'
             image='/img/jobit.svg'
-            styles='relative flex flex-row-reverse h-[514px] md:h-[440px] w-full justify-around rounded-[20px] bg-emerald-500'
+            styles='hover:scale-105 transition-all  relative flex flex-row-reverse h-[514px] md:h-[440px] w-full justify-around rounded-[20px] bg-emerald-500'
           />
           <FeaturedCard
             title='Filmpire - Ai Powered Movie Application'
@@ -38,7 +38,7 @@ const Featured = () => {
             descriptionBE='Nodejs'
             link='/caseStudyDetails/filmpire'
             image='/img/Filmpire (1).svg'
-            styles='relative flex h-[514px] md:h-[440px] w-full justify-around rounded-[20px] bg-red-600'
+            styles='hover:scale-105 transition-all  relative flex h-[514px] md:h-[440px] w-full justify-around rounded-[20px] bg-red-600'
           />
           <section className='flex justify-center'>
             <Link href='/caseStudies'>
