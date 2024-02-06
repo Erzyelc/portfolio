@@ -1,4 +1,3 @@
-// import Featured from '@/app/Homepage/Featured';
 import Hero from '@/app/Homepage/Hero';
 import Skills from '@/app/Homepage/Skills';
 // import Testimonies from '@/app/Homepage/Testimonies';
@@ -6,6 +5,7 @@ import Skills from '@/app/Homepage/Skills';
 import React from 'react';
 import Services from './Homepage/Services';
 import Experience from './Homepage/Experience';
+import Featured from './Homepage/Featured';
 
 const page = () => {
   return (
@@ -14,7 +14,8 @@ const page = () => {
       <Skills />
       <Services />
       <Experience />
-      {/* <Featured />
+      <Featured />
+      {/* }
       <Testimonies />
       <ContactMe /> */}
     </main>

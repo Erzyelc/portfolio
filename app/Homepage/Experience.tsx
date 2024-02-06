@@ -54,8 +54,8 @@ const Experience = () => {
 
     <section className='bg-white-900 dark:bg-black-200'>
       <div
-        className='flex flex-col  justify-around px-6 py-12 xl:flex-row xl:gap-[1.63rem]
-        xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'
+        className='flex flex-col justify-around px-6 py-12 xl:flex-row
+        xl:gap-[1.63rem] xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'
       >
         <section className='flex flex-col justify-center gap-5 rounded-2xl bg-gray-900 p-[50px] dark:bg-sky-50 md:w-[45%] md:gap-10 md:p-[100px] '>
           <h2 className='text-white-900 dark:text-gray-900'>
