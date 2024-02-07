@@ -9,7 +9,7 @@ import Email from '@/public/icons/Message.svg';
 
 const Sidebar = () => {
   return (
-    <section className='flex flex-col gap-20'>
+    <section className='flex flex-col justify-center gap-14 bg-green-500 px-[20.5px] md:px-0'>
       <section className='flex flex-col gap-6'>
         <h4 className='text-[20px] font-normal text-gray-800 dark:text-white-900 md:text-2xl'>
           My Socials
@@ -73,7 +73,7 @@ const Sidebar = () => {
         <h4 className='text-[20px] font-normal text-gray-800 dark:text-white-900 md:text-2xl'>
           Email Address
         </h4>
-        <section className='flex items-center gap-3'>
+        <section className='flex flex-row gap-3'>
           <Email
             height={30}
             width={30}
