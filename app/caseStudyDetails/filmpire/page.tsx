@@ -27,29 +27,63 @@ const Filmpire = () => {
         startDateString='4/10/2023'
         endDateString='06/03/2023'
       />
-      <section className='flex flex-col flex-wrap items-center justify-center bg-white-900 py-20 dark:bg-gray-900'>
-        <section className='flex max-w-[878px] flex-wrap items-center justify-between gap-12'>
-          <section className='flex w-full flex-col'>
-            <p className='text-sm font-semibold text-blue-700 dark:text-blue-500'>
+      <section className='bg-white-900 py-12 dark:bg-gray-900'>
+        <div className='flex flex-col items-center gap-10  xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'>
+          <section className=' flex w-full flex-col gap-3 pl-12 md:pl-0'>
+            <p className=' text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
               Technologies used
             </p>
-            <h2 className='text-[32px] font-semibold text-gray-900 dark:text-white-900'>
+            <h2 className='text-[28px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
               Tech Stack
             </h2>
           </section>
-          <SkillCard image='/icons/react.svg' />
-          <SkillCard image='/icons/nextColored.svg' />
-          <SkillCard image='/icons/tsColored.svg' />
-          <SkillCard image='/icons/tailwindColored.svg' />
-          <SkillCard image='/icons/nodejsColored.svg' />
-          <SkillCard image='/icons/htmlColored.svg' />
-          <SkillCard image='/icons/cssColored.svg' />
-          <SkillCard image='/icons/jsColored.svg' />
-          <SkillCard image='/icons/gitColored.svg' />
-          <SkillCard image='/icons/githubColored.svg' />
-          <SkillCard image='/icons/mongodbColored.svg' />
-          <SkillCard image='/icons/exColored.svg' />
-        </section>
+          <div
+            className='grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap md:justify-center lg:gap-[4rem] 
+            xl:gap-x-[2.8916rem] xl:gap-y-[4.13rem]'
+          >
+            <SkillCard
+              image='/icons/jsColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/react.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+
+            <SkillCard
+              image='/icons/nextColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/tsColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/htmlColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/cssColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/supabase.png'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/tailwindColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/motionColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+            <SkillCard
+              image='/icons/nodejsColored.svg'
+              styles={'md:h-[50px] md:w-[50px]'}
+            />
+          </div>
+        </div>
       </section>
       <section className='padding-layout flex justify-center py-20'>
         <ProjectDescription
@@ -65,28 +99,28 @@ const Filmpire = () => {
         />
       </section>
       <section className='flex w-full items-center justify-center bg-red-600 py-9 dark:bg-red-700 '>
-        <h2 className='text-[32px] font-semibold text-white-900'>
+        <h2 className='text-sm font-semibold text-white-900 md:text-[32px]'>
           High-Fidelity Figma Design
         </h2>
       </section>
-      <section className='relative h-[767px] w-full'>
+      <section className='relative h-[210px] w-full md:h-[767px]'>
         <Figma image='/img/filmpirefigma.png' />
       </section>
       <section>
         <Process />
       </section>
-      <section className='flex  flex-wrap items-center justify-center gap-8 pb-28 pt-16'>
-        <section className='flex w-full max-w-[878px] flex-col gap-8'>
+      <section className='flex  flex-wrap items-center justify-center gap-8 px-10 pb-28 pt-16 md:px-0'>
+        <section className='flex w-full max-w-[878px]  flex-col gap-8 '>
           <section className='flex flex-col gap-3'>
-            <p className='text-sm font-semibold text-blue-700 dark:text-blue-500'>
+            <p className='text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
               Projects
             </p>
-            <h2 className='text-[32px] font-semibold text-gray-900 dark:text-white-900'>
+            <h2 className='text-[28px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
               Other Case Studies
             </h2>
           </section>
         </section>
-        <section className='flex flex-row gap-6'>
+        <section className='flex flex-col gap-24 md:flex-row md:gap-6'>
           <RelatedDetails
             link='/caseStudyDetails'
             image='/img/morrentfigma.svg'

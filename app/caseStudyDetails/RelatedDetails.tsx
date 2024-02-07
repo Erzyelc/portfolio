@@ -12,7 +12,7 @@ type Props = {
 const RelatedDetails = ({ link, image, title, description }: Props) => {
   return (
     <section>
-      <section className='h-[481px] w-[430px] rounded-[10px] bg-white-900 shadow-lg dark:bg-gray-900'>
+      <section className=' h-[385px] w-[345px] rounded-[10px] bg-white-900 shadow-lg dark:bg-gray-900 md:h-[481px] md:w-[430px]'>
         <Image
           src={image}
           alt={title}
@@ -22,10 +22,10 @@ const RelatedDetails = ({ link, image, title, description }: Props) => {
         />
         <section className='flex flex-col justify-center gap-8 rounded-[10px] bg-white-900 px-6 py-10 dark:bg-gray-900'>
           <section className='flex flex-col gap-4'>
-            <h3 className='text-2xl font-semibold text-blue-700 dark:text-blue-500'>
+            <h3 className='text-[20px] font-semibold text-blue-700 dark:text-blue-500 md:text-2xl'>
               {title}
             </h3>
-            <p className=' text-lg font-normal text-slate-500 dark:text-sky-50'>
+            <p className='text-sm font-normal text-slate-500 dark:text-sky-50 md:text-lg'>
               {description}
             </p>
           </section>

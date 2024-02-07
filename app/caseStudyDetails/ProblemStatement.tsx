@@ -9,18 +9,18 @@ type Props = {
 const ProblemStatement = ({ description, image }: Props) => {
   return (
     <section className='flex flex-col flex-wrap items-center justify-center bg-white-900 py-20 dark:bg-gray-900'>
-      <section className='flex max-w-[878px] flex-wrap items-center justify-between gap-12'>
+      <section className='flex max-w-[878px] flex-wrap items-center justify-between gap-12 px-10 md:px-0'>
         <section className='flex w-full flex-col gap-8'>
           <section className='flex flex-col gap-3'>
-            <p className='text-sm font-semibold text-blue-700 dark:text-blue-500'>
+            <p className='text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
               Problem
             </p>
-            <h2 className='text-[32px] font-semibold text-gray-900 dark:text-white-900'>
+            <h2 className='text-[28px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
               Problem Statement
             </h2>
           </section>
 
-          <p className='text-xl font-normal text-slate-500 dark:text-sky-50'>
+          <p className='text-sm font-normal text-slate-500 dark:text-sky-50 md:text-xl'>
             {description}
           </p>
         </section>

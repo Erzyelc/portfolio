@@ -20,7 +20,7 @@ const ContactMe = () => {
         </section>
         <section className=' mt-16 md:mr-20'>
           <Link href='/contact' className='z-50'>
-            <button className='z-50 flex cursor-pointer flex-row items-center gap-2.5 rounded-full bg-blue-700 px-20 py-5  text-lg font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500 md:px-8'>
+            <button className='z-50 flex cursor-pointer flex-row items-center gap-2.5 rounded-full bg-blue-700 px-16 py-5  text-lg font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500 md:px-8'>
               Get in Touch with Me
               <Image
                 src='/icons/arrowsmall.svg'

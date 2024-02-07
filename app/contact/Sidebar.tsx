@@ -11,7 +11,7 @@ const Sidebar = () => {
   return (
     <section className='flex flex-col gap-20'>
       <section className='flex flex-col gap-6'>
-        <h4 className='text-2xl font-normal text-gray-800 dark:text-white-900'>
+        <h4 className='text-[20px] font-normal text-gray-800 dark:text-white-900 md:text-2xl'>
           My Socials
         </h4>
         <ul className='flex gap-8'>
@@ -54,7 +54,7 @@ const Sidebar = () => {
         </ul>
       </section>
       <section className='flex flex-col gap-6'>
-        <h4 className='text-2xl font-normal text-gray-800 dark:text-white-900'>
+        <h4 className='text-[20px] font-normal text-gray-800 dark:text-white-900 md:text-2xl'>
           Phone Number
         </h4>
         <section className='flex items-center gap-3'>
@@ -64,13 +64,13 @@ const Sidebar = () => {
             alt='phone'
             className='fill-[#778295] dark:fill-white-900'
           />
-          <p className='text-2xl font-semibold text-slate-500 dark:text-white-900'>
+          <p className='text-[20px] font-semibold text-slate-500 dark:text-white-900 md:text-2xl'>
             (267) 670-6953
           </p>
         </section>
       </section>
       <section className='flex flex-col gap-6'>
-        <h4 className='text-2xl font-normal text-gray-800 dark:text-white-900'>
+        <h4 className='text-[20px] font-normal text-gray-800 dark:text-white-900 md:text-2xl'>
           Email Address
         </h4>
         <section className='flex items-center gap-3'>
@@ -80,7 +80,7 @@ const Sidebar = () => {
             alt='email'
             className='fill-[#778295] dark:fill-white-900'
           />
-          <p className='text-2xl font-semibold text-slate-500 dark:text-white-900'>
+          <p className='text-[20px] font-semibold text-slate-500 dark:text-white-900 md:text-2xl'>
             ryanjcarpenter88@gmail.com
           </p>
         </section>
