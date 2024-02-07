@@ -15,7 +15,13 @@ const NavMobile = () => {
     <motion.div>
       <nav className='md:padding-layout flex h-[72px] items-center justify-between border-b border-white-800/50 bg-white-800 px-10 dark:border-gray-900/50 dark:bg-gray-800'>
         <Link href='/'>
-          <Image src='/img/logo.svg' alt={'logo'} height={45} width={45} />
+          {/* <Image src='/img/logo.svg' alt={'logo'} height={45} width={45} /> */}
+          <Image
+            src={'/icons/logoAlt.svg'}
+            alt={'logo'}
+            height={45}
+            width={45}
+          />
         </Link>
         <Menu
           alt={'menu'}
@@ -49,17 +55,17 @@ const NavMobile = () => {
               </section>
               <section className='h-1/2'>
                 <ul className='flex h-full flex-col items-center justify-center py-8'>
-                  <div className='flex h-full w-full flex-col justify-around '>
-                    <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
+                  <div className='flex h-full w-full flex-col justify-around gap-6'>
+                    <li className='flex h-[50px] cursor-pointer items-center rounded-[100px] py-8 pl-5 text-sm font-bold text-slate-500 transition-all hover:scale-105 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
                       <Link href='/'>Home</Link>
                     </li>
-                    <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
+                    <li className='flex h-[50px] cursor-pointer items-center rounded-[100px] py-8 pl-5 text-sm font-bold text-slate-500 transition-all hover:scale-105 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
                       <Link href='/caseStudies'>Case Studies</Link>
                     </li>
-                    <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
+                    <li className='flex h-[50px] cursor-pointer items-center rounded-[100px] py-8 pl-5 text-sm font-bold text-slate-500 transition-all hover:scale-105 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
                       <Link href='/contact'>Contact</Link>
                     </li>
-                    <li className='flex h-[50px] cursor-pointer items-center rounded pl-3 text-sm font-medium text-slate-500 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
+                    <li className='flex h-[50px] cursor-pointer items-center justify-center rounded-[100px] bg-white-800 py-8 pl-5 text-sm font-bold text-blue-700 transition-all hover:scale-105 hover:bg-blue-700 hover:text-white-900 dark:bg-black-300 dark:text-[#428DFF]'>
                       <Link
                         href='https://docs.google.com/document/d/1VKJPgTiRczl6vK74tBNGTJ145L_yEcWp8xgYG8C3_40/edit?usp=sharing'
                         target='_blank'

@@ -17,11 +17,11 @@ const Contact = () => {
         </p>
       </section>
       <section className='bg-white-900 py-28 dark:bg-gray-900'>
-        <section className='flex w-full justify-around'>
-          <section className=''>
+        <section className='flex w-full flex-col-reverse justify-around gap-20 md:flex-row'>
+          <section className='pl-10 md:pl-0'>
             <Sidebar />
           </section>
-          <section className='w-1/2'>
+          <section className='px-10 md:w-1/2 md:px-0'>
             <Form />
           </section>
         </section>

@@ -13,7 +13,13 @@ const NavDesktop = () => {
     <nav className='flex h-[80px] w-full justify-between border-b border-white-800/50 bg-white-800 dark:border-gray-900/50 dark:bg-gray-800'>
       <ul className='padding-layout flex w-full cursor-pointer flex-row items-center justify-between'>
         <Link href='/'>
-          <Image src={'/img/logo.svg'} alt={'logo'} height={45} width={45} />
+          {/* <Image src={'/img/logo.svg'} alt={'logo'} height={45} width={45} /> */}
+          <Image
+            src={'/icons/logoAlt.svg'}
+            alt={'logo'}
+            height={45}
+            width={45}
+          />
         </Link>
         <section className='flex items-center justify-between gap-9'>
           <li className='text-sm font-normal leading-snug text-slate-500 hover:text-blue-700 dark:text-sky-50'>

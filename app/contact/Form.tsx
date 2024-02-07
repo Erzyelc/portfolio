@@ -8,7 +8,7 @@ const Form = () => {
           Whats your name?
           <input
             type='text'
-            className='relative h-20 rounded-[20px] border border-blue-200 bg-sky-50 dark:border-slate-700 dark:bg-gray-800'
+            className='relative h-20  rounded-[20px] border border-blue-200 bg-sky-50 dark:border-slate-700 dark:bg-gray-800'
           />
         </label>
         <label className='flex flex-col gap-4 text-xl font-normal text-gray-800 dark:text-white-900'>
@@ -38,8 +38,8 @@ const Form = () => {
             className='relative h-20 rounded-[20px] border border-blue-200 bg-sky-50 dark:border-slate-700 dark:bg-gray-800'
           />
         </label>
-        <section className='flex justify-end '>
-          <button className='rounded-full bg-blue-700 px-16 py-5 text-lg font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500'>
+        <section className='flex md:justify-end '>
+          <button className='w-full rounded-full bg-blue-700 px-16 py-5 text-lg font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500 md:w-fit'>
             Send
           </button>
         </section>
