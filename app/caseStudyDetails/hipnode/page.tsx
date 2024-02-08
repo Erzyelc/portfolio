@@ -14,8 +14,8 @@ const Hipnode = () => {
     <section>
       <CaseStudyHeader
         description='WEB DEV PROJECT'
-        title='Hipnode - Social Platform for Developers'
-        image='/img/hipnode.svg'
+        title='Devflow - Social Platform for Developers'
+        image='/img/devoverflow.svg'
         demoLink='#'
         sourceCodeLink='https://github.com/Erzyelc/Hipnode'
       />
@@ -87,14 +87,14 @@ const Hipnode = () => {
       </section>
       <section className='padding-layout flex justify-center py-20'>
         <ProjectDescription
-          description='Hipnode is a phenomenal app that takes social media to the next level. It gives users the ability to create a profile, add posts, and even comment on other users posts. '
+          description='Devoverflow is a phenomenal app that takes social media to the next level. It gives users the ability to create a profile, add posts, and even comment on other users posts. '
           description2='My team and I also developed an amazing way to create groups and join other groups. This is a great tool that gives flexibility to the user to find the perfect group for them, so that the user can really hone in on their skills and find content that is relevant to them.'
           description3=''
         />
       </section>
       <section>
         <ProblemStatement
-          description='Lets face it, social media is the problem! There is a lot of content that most people just do not care about to see, with Hipnode you can join groups and see more of the interesting content you want to see day to day.'
+          description='Lets face it, social media is the problem! There is a lot of content that most people just do not care about to see, with DevOverflow you can join groups and see more of the interesting content you want to see day to day.'
           image='/img/hipnodeproblem.svg'
         />
       </section>
@@ -104,7 +104,7 @@ const Hipnode = () => {
         </h2>
       </section>
       <section className='relative h-[210px] w-full md:h-[767px]'>
-        <Figma image='../img/hipnodefigma.svg' />
+        <Figma image='../img/devoverflowfigma.svg' />
       </section>
       <section>
         <Process />
@@ -122,14 +122,14 @@ const Hipnode = () => {
         </section>
         <section className='flex flex-col gap-24 md:flex-row md:gap-6'>
           <RelatedDetails
-            link='/caseStudyDetails'
-            image='/img/morrentfigma.svg'
-            title='Morrent'
-            description='Morrent, a cutting-edge car rental application that was developed using the MERN stack...'
+            link='/caseStudyDetails/filmpire'
+            image='/img/filmpirefigma2.svg'
+            title='Filmpire'
+            description='Filmpire, a cutting edge web app to help search and save your favorite movies on the web.'
           />
           <RelatedDetails
             link='/caseStudyDetails/jobit'
-            image='/img/jobitfigma.svg'
+            image='/img/jobitfigma2.svg'
             title='jobit'
             description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
           />

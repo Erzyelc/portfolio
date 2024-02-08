@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const ContactMe = () => {
   return (
-    <section className='bg-white-900 py-20 dark:bg-gray-900'>
+    <section className='bg-white-900 py-20 dark:bg-gray-900 md:px-10'>
       <section className='md:padding-layout relative mx-5 flex flex-col items-center justify-center rounded-[20px] bg-orange-300 py-24 md:mx-0 md:w-full md:flex-row md:justify-between'>
         <Image
           src='/img/eclipse118.svg'

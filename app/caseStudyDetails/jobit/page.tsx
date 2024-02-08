@@ -16,7 +16,7 @@ const Jobit = () => {
         description='WEB DEV PROJECT'
         title='Jobit - A Job Finding Application'
         image='/img/jobit.svg'
-        demoLink='#'
+        demoLink='https://job-it-job-finder.vercel.app/'
         sourceCodeLink='https://github.com/Erzyelc/Jobit'
       />
       <RoleDetails
@@ -122,16 +122,16 @@ const Jobit = () => {
         </section>
         <section className='flex flex-col gap-24 md:flex-row md:gap-6'>
           <RelatedDetails
-            link='/caseStudyDetails'
-            image='/img/morrentfigma.svg'
-            title='Morrent'
-            description='Morrent, a cutting-edge car rental application that was developed using the MERN stack...'
+            link='/caseStudyDetails/filmpire'
+            image='/img/filmpirefigma2.svg'
+            title='Filmpire'
+            description='Filmpire, a cutting edge web app to help search and save your favorite movies on the web.'
           />
           <RelatedDetails
             link='/caseStudyDetails/hipnode'
-            image='/img/hipnodefigma.svg'
-            title='Hipnode'
-            description='Hipnode, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+            image='/img/devoverflowfigma.svg'
+            title='DevOverflow'
+            description='A web app made to help feel more connected on social media to fellow developers.'
           />
         </section>
       </section>

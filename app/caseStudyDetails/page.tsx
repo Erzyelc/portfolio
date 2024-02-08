@@ -125,13 +125,13 @@ const caseStudyDetails = () => {
         <section className='flex flex-col gap-24 md:flex-row md:gap-6'>
           <RelatedDetails
             link='/caseStudyDetails/hipnode'
-            image='/img/hipnodefigma.svg'
-            title='Hipnode'
-            description='Hipnode, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+            image='/img/devoverflowfigma.svg'
+            title='DevOverflow'
+            description='A web app made to help feel more connected on social media to fellow developers.'
           />
           <RelatedDetails
             link='/caseStudyDetails/jobit'
-            image='/img/jobitfigma.svg'
+            image='/img/jobitfigma2.svg'
             title='Jobit'
             description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
           />

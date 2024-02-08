@@ -26,7 +26,7 @@ const CaseStudyHeader = ({
         <h1 className='px-10 text-[42px] font-bold text-gray-900 dark:text-white-900 md:px-0 md:text-[64px]'>
           <div className='relative w-fit'>
             <div className='relative z-10'>{title}</div>
-            <div className='absolute bottom-0.5 z-0 h-6 w-[262px] bg-accent' />
+            <div className='absolute bottom-0.5 z-0 hidden h-6 w-[262px] bg-accent lg:flex' />
           </div>
         </h1>
       </div>

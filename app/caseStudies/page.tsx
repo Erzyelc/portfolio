@@ -36,9 +36,9 @@ const page = () => {
           />
           <CaseStudyCard
             link={'/caseStudyDetails/hipnode'}
-            title='HipNode'
+            title='DevOverflow'
             description='Social Platform for Developers'
-            img='./img/hipnodelaptop.svg'
+            img='./img/devoverflowlaptop.svg'
             styles='relative flex items-baseline justify-end rounded-2xl  bg-orange-500  px-[80px] pt-[72px]'
           />
           {/* <CaseStudyCard
