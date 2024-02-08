@@ -18,8 +18,8 @@ const caseStudyDetails = () => {
         description='WEB DEV PROJECT'
         title='Morrent - A Car Rental Website'
         image='/img/morrent.svg'
-        demoLink='#'
-        sourceCodeLink='https://github.com/Erzyelc/Morrent'
+        demoLink='https://morent-car-rental-app-ten.vercel.app/'
+        sourceCodeLink='https://github.com/asakohayase/Morent-CarRentalApp'
       />
       <RoleDetails
         role='Role'

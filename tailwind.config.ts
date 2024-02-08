@@ -11,8 +11,11 @@ const config: Config = {
     extend: {
       colors: {
         secondary: '#FFBE62',
-        accent: '#FFBE62',
-        primary: 'rgb(var(--color-primary) / <alpha-value>)',
+        // accent: '#FFBE62',
+        accent: '#35C9E280',
+        // accent:
+        //   'linear-gradient(134.96deg, rgba(53, 201, 226, 0.5) 0.02%, #35E6BB 100.02%)',
+        // primary: 'rgb(var(--color-primary) / <alpha-value>)',
         background: {
           1: 'rgb(var(--color-bkg) / <alpha-value>)',
           2: 'rgb(var(--color-bkg-2) / <alpha-value>)',

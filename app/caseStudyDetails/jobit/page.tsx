@@ -17,7 +17,7 @@ const Jobit = () => {
         title='Jobit - A Job Finding Application'
         image='/img/jobit.svg'
         demoLink='https://job-it-job-finder.vercel.app/'
-        sourceCodeLink='https://github.com/Erzyelc/Jobit'
+        sourceCodeLink='https://github.com/asakohayase/JobIt-JobFinder'
       />
       <RoleDetails
         role='Role'
