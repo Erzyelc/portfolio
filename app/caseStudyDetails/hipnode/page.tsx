@@ -16,7 +16,7 @@ const Hipnode = () => {
         description='WEB DEV PROJECT'
         title='Devflow - Social Media Application'
         image='/img/devoverflow.svg'
-        demoLink='#'
+        demoLink='https://devflow-rose.vercel.app/'
         sourceCodeLink='https://github.com/Erzyelc/Hipnode'
       />
       <RoleDetails
