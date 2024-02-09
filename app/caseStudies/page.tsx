@@ -6,7 +6,7 @@ const page = () => {
   return (
     <section className=''>
       <section className='flex h-[350px] w-full flex-col items-center justify-center gap-8 px-10 md:px-0'>
-        <h2 className='flex w-fit gap-3'>
+        <h2 className='flex w-fit gap-3 text-[42px] md:text-[64px]'>
           <div className=' relative w-fit'>
             <div className='relative z-10'>Case Studies</div>
             <div className='absolute bottom-0 z-0 h-5 w-full bg-accent' />

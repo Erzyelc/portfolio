@@ -65,7 +65,7 @@ const NavMobile = () => {
                     <li className='flex h-[50px] cursor-pointer items-center rounded-[100px] py-8 pl-5 text-sm font-bold text-slate-500 transition-all hover:scale-105 hover:bg-blue-700 hover:text-white-900 dark:text-white-900'>
                       <Link href='/contact'>Contact</Link>
                     </li>
-                    <li className='flex h-[50px] cursor-pointer items-center justify-center rounded-[100px] bg-white-800 py-8 pl-5 text-sm font-bold text-blue-700 transition-all hover:scale-105 hover:bg-blue-700 hover:text-white-900 dark:bg-black-300 dark:text-[#428DFF]'>
+                    <li className='flex h-[50px] cursor-pointer items-center justify-center rounded-[100px] bg-white-900 py-8  text-sm font-bold text-blue-700 transition-all hover:scale-105 hover:bg-blue-700 hover:text-white-900 dark:bg-black-300 dark:text-[#428DFF]'>
                       <Link
                         href='https://docs.google.com/document/d/1VKJPgTiRczl6vK74tBNGTJ145L_yEcWp8xgYG8C3_40/edit?usp=sharing'
                         target='_blank'
