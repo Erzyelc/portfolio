@@ -25,28 +25,28 @@ const page = () => {
             title='Morrent'
             description='Car Rental Application'
             img='./img/morrentlaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-2xl  bg-blue-400 px-[80px] pt-[72px]'
+            styles='relative flex items-baseline justify-end rounded-t-2xl  bg-blue-400 px-[80px] pt-[72px]'
           />
           <CaseStudyCard
             link={'/caseStudyDetails/jobit'}
             title='Jobit'
             description='Job Finding Application'
             img='./img/jobitlaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-2xl  bg-emerald-500 px-[80px] pt-[72px]'
+            styles='relative flex items-baseline justify-end rounded-t-2xl  bg-emerald-500 px-[80px] pt-[72px]'
           />
           <CaseStudyCard
             link={'/caseStudyDetails/hipnode'}
             title='DevOverflow'
             description='Social Media Application'
             img='./img/devoverflowlaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-2xl  bg-orange-500  px-[80px] pt-[72px]'
+            styles='relative flex items-baseline justify-end rounded-t-2xl  bg-orange-500  px-[80px] pt-[72px]'
           />
           <CaseStudyCard
             link={'/caseStudyDetails/filmpire'}
             title='Filmpire'
             description='Movie Application'
             img='./img/filmpirelaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-2xl bg-red-600 px-[80px] pt-[72px]'
+            styles='relative flex items-baseline justify-end rounded-t-2xl bg-red-600 px-[80px] pt-[72px]'
           />
         </section>
       </section>
