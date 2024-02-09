@@ -18,11 +18,11 @@ const CaseStudyCard = ({ link, title, description, img, styles }: Props) => {
           <section className={styles}>
             <Image src={img} alt='case study image' width={436} height={258} />
           </section>
-          <section className='flex flex-col gap-2 rounded-b-[20px] bg-white-900 py-6  pl-10 shadow-md md:pl-20'>
+          <section className='flex flex-col gap-2 rounded-b-[20px] bg-white-900 py-6 pl-10  shadow-md dark:bg-slate-800 md:pl-20'>
             <h3 className='text-[20px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
               {title}
             </h3>
-            <p className='text-xs font-normal text-slate-500 dark:text-slate-500 md:text-xl'>
+            <p className='text-xs font-normal text-slate-500 dark:text-slate-300 md:text-xl'>
               {description}
             </p>
           </section>
