@@ -24,7 +24,7 @@ const FeaturedCard = ({
   return (
     <section className='padding-layout relative w-full'>
       <section className={styles}>
-        <div className='flex flex-col items-center justify-start gap-10 p-10 md:flex-row '>
+        <div className='flex  flex-col items-center justify-start gap-10 p-10 md:flex-row '>
           <div className='flex flex-col gap-10'>
             <div>
               <h2 className='text-[32px] font-bold text-white-900 md:text-5xl'>
@@ -51,14 +51,7 @@ const FeaturedCard = ({
               </p>
             </Link>
           </div>
-
           <div className='transition-all hover:scale-105'>
-            {/* <Image
-              src={image}
-              alt='laptop'
-              fill
-              className='object-contain p-14'
-            /> */}
             <Image
               src={image}
               alt='laptop'

@@ -14,7 +14,7 @@ const Hipnode = () => {
     <section>
       <CaseStudyHeader
         description='WEB DEV PROJECT'
-        title='Devflow - Social Platform for Developers'
+        title='Devflow - Social Media Application'
         image='/img/devoverflow.svg'
         demoLink='#'
         sourceCodeLink='https://github.com/Erzyelc/Hipnode'
@@ -27,7 +27,7 @@ const Hipnode = () => {
         startDateString='10/1/2023'
         endDateString='12/1/2023'
       />
-      <section className='bg-white-900 py-12 dark:bg-gray-900'>
+      <section className='md:padding-layout bg-white-900 py-12 dark:bg-gray-900'>
         <div className='flex flex-col items-center gap-10  xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'>
           <section className=' flex w-full flex-col gap-3 pl-12 md:pl-0'>
             <p className=' text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
@@ -67,7 +67,7 @@ const Hipnode = () => {
               styles={'md:h-[50px] md:w-[50px]'}
             />
             <SkillCard
-              image='/icons/supabase.png'
+              image='/icons/mongodbColored.svg'
               styles={'md:h-[50px] md:w-[50px]'}
             />
             <SkillCard

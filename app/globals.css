@@ -11,7 +11,7 @@
     content: ''; /* Ensure the pseudo-element has content */
     position: absolute;
     display: block;
-    border-bottom: 18px solid #ffbe62; /* Define the bottom border */
+    border-bottom: 18px solid #35c9e280; /* Define the bottom border */
     top: 58%;
     right: 0;
     left: 0;
@@ -68,7 +68,7 @@
   }
 
   .padding-layout {
-    @apply max-w-[1440px] mx-auto px-6 md:px-3;
+    @apply max-w-[1440px] mx-auto px-6 md:px-10;
   }
 
   .padding-layout-sm {

@@ -14,7 +14,7 @@ const Filmpire = () => {
     <section>
       <CaseStudyHeader
         description='WEB DEV PROJECT'
-        title='Filmpire - Ai-Powered Movie Application'
+        title='Filmpire - Movie Application'
         image='/img/Filmpire (1).svg'
         demoLink='https://filmpirerjc.netlify.app/'
         sourceCodeLink='https://github.com/Erzyelc/Filmpire'
@@ -27,7 +27,7 @@ const Filmpire = () => {
         startDateString='4/10/2023'
         endDateString='06/03/2023'
       />
-      <section className='bg-white-900 py-12 dark:bg-gray-900'>
+      <section className='md:padding-layout bg-white-900 py-12 dark:bg-gray-900'>
         <div className='flex flex-col items-center gap-10  xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'>
           <section className=' flex w-full flex-col gap-3 pl-12 md:pl-0'>
             <p className=' text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
@@ -38,7 +38,7 @@ const Filmpire = () => {
             </h2>
           </section>
           <div
-            className='grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap md:justify-center lg:gap-[4rem] 
+            className=' grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap md:justify-center lg:gap-[4rem] 
             xl:gap-x-[2.8916rem] xl:gap-y-[4.13rem]'
           >
             <SkillCard
@@ -64,10 +64,6 @@ const Filmpire = () => {
             />
             <SkillCard
               image='/icons/cssColored.svg'
-              styles={'md:h-[50px] md:w-[50px]'}
-            />
-            <SkillCard
-              image='/icons/supabase.png'
               styles={'md:h-[50px] md:w-[50px]'}
             />
             <SkillCard

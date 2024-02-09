@@ -37,28 +37,14 @@ const page = () => {
           <CaseStudyCard
             link={'/caseStudyDetails/hipnode'}
             title='DevOverflow'
-            description='Social Platform for Developers'
+            description='Social Media Application'
             img='./img/devoverflowlaptop.svg'
             styles='relative flex items-baseline justify-end rounded-2xl  bg-orange-500  px-[80px] pt-[72px]'
           />
-          {/* <CaseStudyCard
-            link={'/caseStudyDetails/tripguide'}
-            title='Trip Guide'
-            description='Booking Platform'
-            img='./img/tripguidelaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-2xl  bg-blue-600  px-[80px] pt-[72px]'
-          />
-          <CaseStudyCard
-            link={'/caseStudyDetails/virtue'}
-            title='Virtue'
-            description='Crowdfunding Platform'
-            img='./img/virtuelaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-2xl  bg-green-400  px-[80px] pt-[72px]'
-          /> */}
           <CaseStudyCard
             link={'/caseStudyDetails/filmpire'}
             title='Filmpire'
-            description='Ai-Powered Movie Application'
+            description='Movie Application'
             img='./img/filmpirelaptop.svg'
             styles='relative flex items-baseline justify-end rounded-2xl bg-red-600 px-[80px] pt-[72px]'
           />
