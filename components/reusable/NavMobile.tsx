@@ -13,7 +13,7 @@ const NavMobile = () => {
   const toggle = () => setOpen((isOpen) => !isOpen);
   return (
     <motion.div>
-      <nav className='md:padding-layout flex h-[72px] items-center justify-between border-b border-white-800/50 bg-white-800 px-10 dark:border-gray-900/50 dark:bg-gray-800'>
+      <nav className='padding-layout flex h-[72px] min-w-[390px] items-center justify-between border-b border-white-800/50 bg-white-800  dark:border-gray-900/50 dark:bg-gray-800'>
         <Link href='/'>
           {/* <Image src='/img/logo.svg' alt={'logo'} height={45} width={45} /> */}
           <Image

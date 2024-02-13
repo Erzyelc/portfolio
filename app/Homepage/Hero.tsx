@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className='md:padding-layout flex flex-col items-center md:mb-20 md:w-full md:flex-row'>
-      <section className='md:padding-layout flex w-[330px] flex-col gap-5 pt-16 md:w-1/2 md:gap-8 md:pt-14'>
+    <section className='md:padding-layout mb-10 flex flex-col items-center md:mb-20 md:w-full md:flex-row'>
+      <section className='flex w-[330px] flex-col gap-5 pt-16 md:w-1/2 md:gap-8 md:pt-14'>
         <h3 className='text-sm font-semibold uppercase text-blue-700 dark:text-blue-500 md:text-xl'>
           Hi, I am Ryan
         </h3>
@@ -12,7 +12,7 @@ const Hero = () => {
           Professional <br></br>
           <div className='relative w-fit'>
             <div className='relative z-10'>Web Developer</div>
-            <div className='absolute bottom-0.5 z-0 h-6 w-full bg-accent' />
+            <div className='absolute bottom-0.5 z-0 h-6 w-full bg-gradient-to-b from-[#35C9E280] to-[#35E6BB]' />
           </div>
           based in USA
         </h1>
@@ -25,8 +25,10 @@ const Hero = () => {
           {/* <button className='w-full rounded-full bg-blue-700 py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500 md:w-fit md:px-12 md:py-5 md:text-lg'>
             <Link href='/caseStudies'>My Work</Link>
           </button> */}
-          <button className='w-full rounded-full bg-gradient-to-b from-accent to-blue-700 px-10 py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 md:w-fit md:px-12 md:py-5 md:text-lg'>
-            <Link href='/caseStudies'>My Work</Link>
+          <button className='w-full rounded-full bg-gradient-to-b from-[#3536BB] to-[#35C9E280] py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 md:w-fit md:px-10 md:text-[18px] lg:py-5'>
+            <Link href='/caseStudies' className=''>
+              My Work
+            </Link>
           </button>
           <div className='flex w-full md:w-fit'>
             <button className='flex w-full flex-row  justify-between gap-5 rounded-full bg-white-900 px-6 py-5 text-sm font-semibold text-slate-500 transition-all hover:scale-105 dark:bg-gray-900 dark:text-white-900 md:items-center md:text-lg'>
@@ -42,7 +44,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className='relative flex h-[350px] w-1/2 items-center justify-center md:h-[550px]'>
+      <section className='relative hidden h-[350px] w-1/2 items-center justify-center md:flex md:h-[550px]'>
         <Image
           src='./img/computer.svg'
           alt={'computer'}
