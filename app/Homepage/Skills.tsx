@@ -1,7 +1,76 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 'use client';
 
-import SkillCard from '../../components/reusable/SkillCard';
+// import SkillCard from '../../components/reusable/SkillCard';
+import { AnimatedTooltip } from '../../components/ui/animated-tooltip';
+
+const skills = [
+  {
+    id: 1,
+    name: 'Javascript',
+    image: '/icons/jsColored.svg',
+  },
+  {
+    id: 2,
+    name: 'React',
+    image: '/icons/react.svg',
+  },
+  {
+    id: 3,
+    name: 'Redux',
+    image: '/icons/reduxColored.svg',
+  },
+  {
+    id: 4,
+    name: 'Next.js',
+    image: '/icons/nextColored.svg',
+  },
+  {
+    id: 5,
+    name: 'Typescript',
+    image: '/icons/tsColored.svg',
+  },
+  {
+    id: 6,
+    name: 'HTML',
+    image: '/icons/htmlColored.svg',
+  },
+  {
+    id: 7,
+    name: 'CSS',
+    image: '/icons/cssColored.svg',
+  },
+  {
+    id: 8,
+    name: 'Supabase',
+    image: '/icons/supabase.png',
+  },
+  {
+    id: 9,
+    name: 'Material UI',
+    image: '/icons/muiColored.svg',
+  },
+  {
+    id: 10,
+    name: 'Tailwind',
+    image: '/icons/tailwindColored.svg',
+  },
+  {
+    id: 11,
+    name: 'Framer Motion',
+    image: '/icons/motionColored.svg',
+  },
+  {
+    id: 12,
+    name: 'Node.js',
+    image: '/icons/nodejsColored.svg',
+  },
+  {
+    id: 13,
+    name: 'MongoDB',
+    image: '/icons/mongodbColored.svg',
+  },
+];
 
 const Skills = () => {
   return (
@@ -14,10 +83,12 @@ const Skills = () => {
           </h2>
         </section>
         <div
-          className='grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap md:justify-center lg:gap-[4rem] 
-            xl:gap-x-[2.8916rem] xl:gap-y-[4.13rem]'
+          className='grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap 
+            md:justify-center lg:gap-[4rem] xl:gap-x-[2.8916rem] xl:gap-y-[4.13rem]'
         >
-          <SkillCard
+          <AnimatedTooltip items={skills} />
+
+          {/* <SkillCard
             image='/icons/jsColored.svg'
             styles={'md:h-[50px] md:w-[50px]'}
           />
@@ -64,7 +135,9 @@ const Skills = () => {
           <SkillCard
             image='/icons/nodejsColored.svg'
             styles={'md:h-[50px] md:w-[50px]'}
-          />
+          /> */}
+
+          {/* <SkillCard styles={'md:h-[50px] md:w-[50px]'} /> */}
         </div>
       </div>
     </section>

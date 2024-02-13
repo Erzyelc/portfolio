@@ -17,8 +17,8 @@ export const AnimatedTooltip = ({
   items: {
     id: number;
     name: string;
-    designation: string;
     image: string;
+    styles?: string;
   }[];
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -68,25 +68,26 @@ export const AnimatedTooltip = ({
                   rotate,
                   whiteSpace: 'nowrap',
                 }}
-                className='bg-black absolute -left-1/2 -top-16 z-50 flex  translate-x-1/2 flex-col items-center justify-center rounded-md px-4 py-2 text-xs shadow-xl'
+                className='absolute -left-5 -top-10 z-50 flex translate-x-1/2  flex-col items-center justify-center rounded-md bg-sky-50 px-4 py-2 text-xs shadow-xl dark:bg-black-200'
               >
                 <div className='absolute inset-x-10 -bottom-px z-30 h-px w-[20%] bg-gradient-to-r from-transparent via-emerald-500 to-transparent ' />
                 <div className='absolute -bottom-px left-10 z-30 h-px w-[40%] bg-gradient-to-r from-transparent via-sky-500 to-transparent ' />
-                <div className='text-white relative z-30 text-base font-bold'>
+                <div className='relative z-30 text-base font-bold  dark:text-white-900'>
                   {item.name}
                 </div>
-                <div className='text-white text-xs'>{item.designation}</div>
               </motion.div>
             )}
           </AnimatePresence>
-          <Image
-            onMouseMove={handleMouseMove}
-            height={100}
-            width={100}
-            src={item.image}
-            alt={item.name}
-            className='border-white relative !m-0 h-14 w-14 rounded-full border-2 object-cover object-top !p-0 transition  duration-500 group-hover:z-30 group-hover:scale-105'
-          />
+          <div className='flex cursor-pointer items-center justify-center rounded-full  bg-sky-50  p-5 hover:bg-white-900 dark:bg-gray-800 hover:dark:bg-gray-700 md:h-[100px] md:w-[100px]'>
+            <Image
+              onMouseMove={handleMouseMove}
+              height={30}
+              width={30}
+              src={item.image}
+              alt={item.name}
+              className='md:h-[50px] md:w-[50px]'
+            />
+          </div>
         </div>
       ))}
     </>
