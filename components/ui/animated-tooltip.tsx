@@ -1,3 +1,5 @@
+/* eslint-disable no-self-compare */
+/* eslint-disable no-undef */
 'use client';
 import Image from 'next/image';
 import React, { useState } from 'react';
@@ -19,7 +21,7 @@ export const AnimatedTooltip = ({
     image: string;
   }[];
 }) => {
-  const [hoveredIndex, setHoveredIndex] = (useState < number) | (null > null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const springConfig = { stiffness: 100, damping: 5 };
   const x = useMotionValue(0); // going to set this value on mouse move
   // rotate the tooltip
