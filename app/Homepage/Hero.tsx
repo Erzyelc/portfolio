@@ -22,7 +22,10 @@ const Hero = () => {
           to excellence
         </p>
         <div className='flex flex-col items-center gap-5 md:flex-row md:gap-8 '>
-          <button className='w-full rounded-full bg-blue-700 py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500 md:w-fit md:px-12 md:py-5 md:text-lg'>
+          {/* <button className='w-full rounded-full bg-blue-700 py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500 md:w-fit md:px-12 md:py-5 md:text-lg'>
+            <Link href='/caseStudies'>My Work</Link>
+          </button> */}
+          <button className='w-full rounded-full bg-gradient-to-b from-accent to-blue-700 px-10 py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 md:w-fit md:px-12 md:py-5 md:text-lg'>
             <Link href='/caseStudies'>My Work</Link>
           </button>
           <div className='flex w-full md:w-fit'>

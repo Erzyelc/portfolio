@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { CardBody, CardContainer, CardItem } from '../../components/ui/3d-card';
 
 type Props = {
   title: string;
@@ -32,7 +33,13 @@ const CaseStudyHeader = ({
       </div>
 
       <section className='relative flex h-full w-1/2 justify-center'>
-        <Image src={image} alt='project-photo' height={700} width={700} />
+        <CardContainer>
+          <CardBody>
+            <CardItem>
+              <Image src={image} alt='project-photo' height={700} width={700} />
+            </CardItem>
+          </CardBody>
+        </CardContainer>
       </section>
       <section className='flex flex-row gap-8 px-10 text-sm font-semibold text-blue-700 md:gap-24 md:px-0 md:text-xl'>
         <Link

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { CardBody, CardContainer, CardItem } from '../../components/ui/3d-card';
 
 type Props = {
   image: string;
@@ -52,13 +53,19 @@ const FeaturedCard = ({
             </Link>
           </div>
           <div className='transition-all hover:scale-105'>
-            <Image
-              src={image}
-              alt='laptop'
-              width={500}
-              height={500}
-              className='object-contain md:h-[800px] md:w-[800px] '
-            />
+            <CardContainer>
+              <CardBody>
+                <CardItem>
+                  <Image
+                    src={image}
+                    alt='laptop'
+                    width={500}
+                    height={500}
+                    className='object-contain md:h-[800px] md:w-[800px] '
+                  />
+                </CardItem>
+              </CardBody>
+            </CardContainer>
           </div>
         </div>
       </section>
