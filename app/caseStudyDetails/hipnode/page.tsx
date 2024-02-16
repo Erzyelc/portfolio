@@ -1,5 +1,5 @@
 import ContactMe from '@/components/reusable/ContactMe';
-import SkillCard from '@/components/reusable/SkillCard';
+// import SkillCard from '@/components/reusable/SkillCard';
 import React from 'react';
 import CaseStudyHeader from '../CaseStudyHeader';
 import Figma from '../Figma';
@@ -8,6 +8,55 @@ import Process from '../Process';
 import ProjectDescription from '../ProjectDescription';
 import RelatedDetails from '../RelatedDetails';
 import RoleDetails from '../RoleDetails';
+import { AnimatedTooltip } from '@/components/ui/animated-tooltip';
+
+const skills = [
+  {
+    id: 1,
+    name: 'Javascript',
+    image: '/icons/jsColored.svg',
+  },
+  {
+    id: 2,
+    name: 'React',
+    image: '/icons/react.svg',
+  },
+  {
+    id: 4,
+    name: 'Next.js',
+    image: '/icons/nextColored.svg',
+  },
+  {
+    id: 5,
+    name: 'Typescript',
+    image: '/icons/tsColored.svg',
+  },
+  {
+    id: 6,
+    name: 'HTML',
+    image: '/icons/htmlColored.svg',
+  },
+  {
+    id: 7,
+    name: 'CSS',
+    image: '/icons/cssColored.svg',
+  },
+  {
+    id: 8,
+    name: 'MongoDB',
+    image: '/icons/mongodbColored.svg',
+  },
+  {
+    id: 10,
+    name: 'Tailwind',
+    image: '/icons/tailwindColored.svg',
+  },
+  {
+    id: 11,
+    name: 'Framer Motion',
+    image: '/icons/motionColored.svg',
+  },
+];
 
 const Hipnode = () => {
   return (
@@ -27,8 +76,8 @@ const Hipnode = () => {
         startDateString='10/1/2023'
         endDateString='12/1/2023'
       />
-      <section className='md:padding-layout bg-white-900 py-12 dark:bg-gray-900'>
-        <div className='flex flex-col items-center gap-10  xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'>
+      <section className=' bg-white-900 py-12 dark:bg-gray-900'>
+        <div className='md:padding-layout flex flex-col items-center gap-10  xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'>
           <section className=' flex w-full flex-col gap-3 pl-12 md:pl-0'>
             <p className=' text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
               Technologies used
@@ -41,7 +90,8 @@ const Hipnode = () => {
             className='grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap md:justify-center lg:gap-[4rem] 
             xl:gap-x-[2.8916rem] xl:gap-y-[4.13rem]'
           >
-            <SkillCard
+            <AnimatedTooltip items={skills} />
+            {/* <SkillCard
               image='/icons/jsColored.svg'
               styles={'md:h-[50px] md:w-[50px]'}
             />
@@ -81,7 +131,7 @@ const Hipnode = () => {
             <SkillCard
               image='/icons/nodejsColored.svg'
               styles={'md:h-[50px] md:w-[50px]'}
-            />
+            /> */}
           </div>
         </div>
       </section>
