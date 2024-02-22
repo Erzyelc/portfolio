@@ -43,6 +43,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@svgr/webpack": "^8.1.0"
+    "@svgr/webpack": "^8.1.0",
+    "daisyui": "^4.7.2"
   }
 }

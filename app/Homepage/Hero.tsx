@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className='md:padding-layout mb-10 flex flex-col items-center md:mb-20 md:w-full md:flex-row'>
+    <section className='md:padding-layout mb-10 flex h-screen flex-col items-center  md:mb-20 md:h-[600px] md:w-full md:flex-row'>
       <section className='flex w-[330px] flex-col gap-5 pt-16 md:w-1/2 md:gap-8 md:pt-14'>
         <h3 className='text-sm font-semibold uppercase text-blue-700 dark:text-blue-500 md:text-xl'>
           Hi, I am Ryan
