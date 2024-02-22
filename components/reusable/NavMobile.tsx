@@ -23,13 +23,16 @@ const NavMobile = () => {
             width={45}
           />
         </Link>
-        <Menu
-          alt={'menu'}
-          height={24}
-          width={24}
-          className='cursor-pointer fill-black-0 dark:fill-white-900'
-          onClick={toggle}
-        />
+        <div className='flex justify-center gap-8'>
+          <ToggleTheme />
+          <Menu
+            alt={'menu'}
+            height={24}
+            width={24}
+            className='cursor-pointer fill-black-0 dark:fill-white-900'
+            onClick={toggle}
+          />
+        </div>
       </nav>
       <AnimatePresence mode='sync'>
         {open && (
@@ -42,8 +45,8 @@ const NavMobile = () => {
               exit={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.3 }}
             >
-              <section className=' z-40 flex w-full items-center justify-between pt-5'>
-                <ToggleTheme />
+              <section className=' z-40 flex w-full items-center justify-end pt-5'>
+                {/* <ToggleTheme /> */}
                 <Image
                   src='/icons/close.svg'
                   alt={'close'}

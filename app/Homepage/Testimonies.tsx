@@ -3,14 +3,11 @@ import TestimonyCard from '../../components/reusable/TestimonyCard';
 const Testimonies = () => {
   return (
     <div className='flex flex-col items-center'>
-      <h2 className='flex flex-row gap-3  pt-20 text-center text-[32px] md:text-[48px]'>
-        What
-        <div className='relative w-fit'>
-          <div className='relative z-10'> they say</div>
-          <div className='absolute bottom-0.5 z-0 h-6 w-full bg-accent' />
-        </div>
-        about me
-      </h2>
+      <div className='flex px-10 pt-20'>
+        <h1 className='text-center text-[36px] font-bold text-black-200  dark:text-white-900'>
+          What <span className='highlight'>they say</span> about me
+        </h1>
+      </div>
       <div className='carousel h-[808px] md:h-[500px]'>
         <div
           id='slide1'

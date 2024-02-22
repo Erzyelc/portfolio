@@ -49,10 +49,10 @@ const ToggleTheme = () => {
       >
         <Image
           src={'/icons/sun.svg'}
-          height={20}
-          width={20}
+          height={18}
+          width={18}
           alt={'line'}
-          className='cursor-pointer dark:hidden'
+          className='cursor-pointer dark:hidden md:h-[20px] md:w-[20px]'
           onClick={handleToggle}
         />
       </motion.div>
