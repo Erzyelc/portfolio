@@ -36,6 +36,10 @@ const config: Config = {
         sm: ['0.875rem', '155%'],
         smallBold: ['0.875rem', '145%'],
       },
+      boxShadow: {
+        'custom-shadow': '0px 10px 66px 0px #00000012',
+        experience: '32px 32px 71px rgba(2, 82, 205, 0.28)',
+      },
     },
   },
   plugins: [require('daisyui')],
