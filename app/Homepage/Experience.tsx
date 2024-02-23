@@ -39,7 +39,7 @@ const Experience = () => {
           <ExperienceCard
             image='/img/jsm.png'
             title='JSM Masterclass'
-            description='Full Stack Developer - 4 Months Experience'
+            description='Full Stack Developer - 4 Month Experience'
           />
           <ExperienceCard
             image='/img/apple.svg'

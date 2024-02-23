@@ -25,7 +25,7 @@ const Hero = () => {
           {/* <button className='w-full rounded-full bg-blue-700 py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 dark:bg-blue-500 md:w-fit md:px-12 md:py-5 md:text-lg'>
             <Link href='/caseStudies'>My Work</Link>
           </button> */}
-          <button className='w-full rounded-full bg-gradient-to-b from-[#3536BB] to-[#35C9E280] py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 md:w-fit md:px-10 md:text-[18px] lg:py-5'>
+          <button className='w-full rounded-full bg-gradient-to-b from-[#3536BB] to-[#35C9E280]  py-3 text-base font-semibold text-white-900 transition-all hover:scale-105 dark:bg-gradient-to-b dark:from-[#35C9E280] dark:to-[#3536BB] md:w-fit md:px-10 md:text-[18px] lg:py-5'>
             <Link href='/caseStudies' className=''>
               My Work
             </Link>

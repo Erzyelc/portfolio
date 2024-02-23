@@ -7,7 +7,7 @@ const Featured = () => {
     <section className='justify-between bg-white-900 pb-20  dark:bg-gray-900'>
       <section className=' bg-white-900 dark:bg-black-200'>
         <section className=' padding-layout flex items-center justify-center pt-20'>
-          <h2 className='flex gap-3 text-[36px] md:text-[48px]'>
+          <h2 className='flex gap-3 text-[36px] dark:text-white-900 md:text-[48px]'>
             Featured
             <div className='relative w-fit'>
               <div className='relative z-10'>Projects</div>

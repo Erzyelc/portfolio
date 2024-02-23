@@ -10,7 +10,7 @@ type Props = {
 
 const TestimonyCard = ({ image, name, testimony, description }: Props) => {
   return (
-    <section className='flex w-full flex-col gap-16 md:flex-row md:items-center md:justify-center md:gap-10'>
+    <section className='flex w-full max-w-[320px] flex-col gap-16 md:max-w-full md:flex-row md:items-center md:justify-center md:gap-10'>
       <section className=''>
         <Image
           src={image}
