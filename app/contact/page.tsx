@@ -12,7 +12,7 @@ const Contact = () => {
             <div className='absolute bottom-0 z-0 h-5 w-full bg-accent' />
           </div>
         </h2>
-        <p className='text-xl font-normal text-slate-500 dark:text-sky-50'>
+        <p className='text-sm font-normal text-slate-500 dark:text-sky-50 md:text-xl'>
           Lets Collaborate on Your Next Project
         </p>
       </section>

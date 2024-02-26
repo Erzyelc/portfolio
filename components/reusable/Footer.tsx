@@ -9,7 +9,7 @@ const Footer = () => {
     <section className='bg-white-900 dark:bg-gray-900'>
       <section className='padding-layout flex w-full items-center justify-between  p-10'>
         <p className='text-lg font-normal text-slate-500 dark:text-sky-50'>
-          © 2024 Ryan. All rights reserved.
+          © 2024 Ryan. Made with ❤️
         </p>
         <ul className='flex gap-5 '>
           <li>

@@ -6,7 +6,11 @@ import { useForm } from '@formspree/react';
 const Form = () => {
   const [state, handleSubmit, reset] = useForm('xdoqzzlq');
   if (state.succeeded) {
-    return <div className=''>Thank you, I Will Reach Out Shortly!</div>;
+    return (
+      <div className='text-lg font-semibold dark:text-white-900'>
+        Thank you, I Will Reach Out Shortly!
+      </div>
+    );
   }
   return (
     <section className='w-full'>
