@@ -1,5 +1,3 @@
-'use client';
-
 import ContactMe from '@/components/reusable/ContactMe';
 import React from 'react';
 import CaseStudyHeader from '../CaseStudyHeader';
@@ -10,8 +8,6 @@ import ProjectDescription from '../ProjectDescription';
 import RelatedDetails from '../RelatedDetails';
 import RoleDetails from '../RoleDetails';
 import { AnimatedTooltip } from '@/components/ui/animated-tooltip';
-import { fadeIn } from '@/utils/motion';
-import { motion } from 'framer-motion';
 
 const skills = [
   {
@@ -63,104 +59,93 @@ const skills = [
 
 const Hipnode = () => {
   return (
-    <motion.div
-      // variants={staggerContainer}
-      initial='hidden'
-      whileInView='show'
-      viewport={{ once: true, amount: 0.25 }}
-      id='home'
-      className=''
-    >
-      <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className=''>
-        <section>
-          <CaseStudyHeader
-            description='WEB DEV PROJECT'
-            title='Devflow - Social Media Application'
-            image='/img/devoverflow.svg'
-            demoLink='https://devflow-rose.vercel.app/'
-            sourceCodeLink='https://github.com/Erzyelc/Hipnode'
-          />
-          <RoleDetails
-            role='Role'
-            title='Fulstack Developer'
-            startDate='Start Date'
-            endDate='End Date'
-            startDateString='10/1/2023'
-            endDateString='12/1/2023'
-          />
-          <section className=' bg-white-900 py-12 dark:bg-gray-900'>
-            <div className='md:padding-layout flex flex-col items-center gap-10  xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'>
-              <section className=' flex w-full flex-col gap-3 pl-12 md:pl-0'>
-                <p className=' text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
-                  Technologies used
-                </p>
-                <h2 className='text-[28px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
-                  Tech Stack
-                </h2>
-              </section>
-              <div
-                className='grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap md:justify-center lg:gap-[4rem] 
-            xl:gap-x-[2.8916rem] xl:gap-y-[4.13rem]'
-              >
-                <AnimatedTooltip items={skills} />
-              </div>
-            </div>
-          </section>
-          <section className='padding-layout flex justify-center py-20'>
-            <ProjectDescription
-              description='Devoverflow is a phenomenal app that takes social media to the next level. It gives users the ability to create a profile, add posts, and even comment on other users posts. '
-              description2='My team and I also developed an amazing way to create groups and join other groups. This is a great tool that gives flexibility to the user to find the perfect group for them, so that the user can really hone in on their skills and find content that is relevant to them.'
-              description3=''
-            />
-          </section>
-          <section>
-            <ProblemStatement
-              description='Lets face it, social media is the problem! There is a lot of content that most people just do not care about to see, with DevOverflow you can join groups and see more of the interesting content you want to see day to day.'
-              image='/img/hipnodeproblem.svg'
-            />
-          </section>
-          <section className='flex w-full items-center justify-center bg-orange-500 py-9 dark:bg-orange-700  '>
-            <h2 className='text-sm font-semibold text-white-900 md:text-[32px]'>
-              High-Fidelity Figma Design
+    <section>
+      <CaseStudyHeader
+        description='WEB DEV PROJECT'
+        title='Devflow - Social Media Application'
+        image='/img/devoverflow.svg'
+        demoLink='https://devflow-rose.vercel.app/'
+        sourceCodeLink='https://github.com/Erzyelc/Hipnode'
+      />
+      <RoleDetails
+        role='Role'
+        title='Fulstack Developer'
+        startDate='Start Date'
+        endDate='End Date'
+        startDateString='10/1/2023'
+        endDateString='12/1/2023'
+      />
+      <section className=' bg-white-900 py-12 dark:bg-gray-900'>
+        <div className='md:padding-layout flex flex-col items-center gap-10  xl:px-[5.31rem] xl:py-[4.5rem] 2xl:mx-auto 2xl:max-w-[90rem]'>
+          <section className=' flex w-full flex-col gap-3 pl-12 md:pl-0'>
+            <p className=' text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
+              Technologies used
+            </p>
+            <h2 className='text-[28px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
+              Tech Stack
             </h2>
           </section>
-          <section className='relative h-[210px] w-full md:h-[767px]'>
-            <Figma image='../img/devoverflowfigma.svg' />
+          <div
+            className='grid grid-cols-4 gap-x-[2.5rem] gap-y-12 md:flex md:flex-wrap md:justify-center lg:gap-[4rem] 
+            xl:gap-x-[2.8916rem] xl:gap-y-[4.13rem]'
+          >
+            <AnimatedTooltip items={skills} />
+          </div>
+        </div>
+      </section>
+      <section className='padding-layout flex justify-center py-20'>
+        <ProjectDescription
+          description='Devoverflow is a phenomenal app that takes social media to the next level. It gives users the ability to create a profile, add posts, and even comment on other users posts. '
+          description2='My team and I also developed an amazing way to create groups and join other groups. This is a great tool that gives flexibility to the user to find the perfect group for them, so that the user can really hone in on their skills and find content that is relevant to them.'
+          description3=''
+        />
+      </section>
+      <section>
+        <ProblemStatement
+          description='Lets face it, social media is the problem! There is a lot of content that most people just do not care about to see, with DevOverflow you can join groups and see more of the interesting content you want to see day to day.'
+          image='/img/hipnodeproblem.svg'
+        />
+      </section>
+      <section className='flex w-full items-center justify-center bg-orange-500 py-9 dark:bg-orange-700  '>
+        <h2 className='text-sm font-semibold text-white-900 md:text-[32px]'>
+          High-Fidelity Figma Design
+        </h2>
+      </section>
+      <section className='relative h-[210px] w-full md:h-[767px]'>
+        <Figma image='../img/devoverflowfigma.svg' />
+      </section>
+      <section>
+        <Process />
+      </section>
+      <section className='flex  flex-wrap items-center justify-center gap-8 px-10 pb-28 pt-16 md:px-0'>
+        <section className='flex w-full max-w-[878px]  flex-col gap-8 '>
+          <section className='flex flex-col gap-3'>
+            <p className='text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
+              Projects
+            </p>
+            <h2 className='text-[28px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
+              Other Case Studies
+            </h2>
           </section>
-          <section>
-            <Process />
-          </section>
-          <section className='flex  flex-wrap items-center justify-center gap-8 px-10 pb-28 pt-16 md:px-0'>
-            <section className='flex w-full max-w-[878px]  flex-col gap-8 '>
-              <section className='flex flex-col gap-3'>
-                <p className='text-xs font-semibold text-blue-700 dark:text-blue-500 md:text-sm'>
-                  Projects
-                </p>
-                <h2 className='text-[28px] font-semibold text-gray-900 dark:text-white-900 md:text-[32px]'>
-                  Other Case Studies
-                </h2>
-              </section>
-            </section>
-            <section className='flex flex-col gap-24 md:flex-row md:gap-6'>
-              <RelatedDetails
-                link='/caseStudyDetails/filmpire'
-                image='/img/filmpirefigma2.svg'
-                title='Filmpire'
-                description='Filmpire, a cutting edge web app to help search and save your favorite movies on the web.'
-              />
-              <RelatedDetails
-                link='/caseStudyDetails/jobit'
-                image='/img/jobitfigma2.svg'
-                title='jobit'
-                description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
-              />
-            </section>
-          </section>
-
-          <ContactMe />
         </section>
-      </motion.div>
-    </motion.div>
+        <section className='flex flex-col gap-24 md:flex-row md:gap-6'>
+          <RelatedDetails
+            link='/caseStudyDetails/filmpire'
+            image='/img/filmpirefigma2.svg'
+            title='Filmpire'
+            description='Filmpire, a cutting edge web app to help search and save your favorite movies on the web.'
+          />
+          <RelatedDetails
+            link='/caseStudyDetails/jobit'
+            image='/img/jobitfigma2.svg'
+            title='jobit'
+            description='Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...'
+          />
+        </section>
+      </section>
+
+      <ContactMe />
+    </section>
   );
 };
 
