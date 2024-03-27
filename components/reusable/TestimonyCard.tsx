@@ -17,7 +17,7 @@ const TestimonyCard = ({ image, name, testimony, description }: Props) => {
           alt='profile pic'
           height={200}
           width={200}
-          className='md:h-[328px] md:w-[328px]'
+          className='rounded-[20px] md:h-[328px] md:w-[328px]'
         />
       </section>
       <section className=' flex w-full  flex-col justify-center gap-8 md:w-1/2'>

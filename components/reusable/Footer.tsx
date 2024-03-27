@@ -5,11 +5,12 @@ import Linkedin from '@/public/icons/linkedin.svg';
 import Github from '@/public/icons/github.svg';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <section className='bg-white-900 dark:bg-gray-900'>
       <section className='padding-layout flex w-full items-center justify-between  p-10'>
         <p className='text-lg font-normal text-slate-500 dark:text-sky-50'>
-          © 2024 Ryan. Made with ❤️
+          © {currentYear} Ryan. Made with ❤️
         </p>
         <ul className='flex gap-5 '>
           <li>

@@ -1,6 +1,10 @@
+'use client';
+
 import ContactMe from '@/components/reusable/ContactMe';
 import React from 'react';
 import CaseStudyCard from './CaseStudyCard';
+import { fadeIn } from '@/utils/motion';
+import { motion } from 'framer-motion';
 
 const page = () => {
   return (
@@ -18,38 +22,49 @@ const page = () => {
         </p>
       </section>
 
-      <section className='flex flex-col items-center  bg-white-900 py-20 dark:bg-gray-900'>
-        <section className='grid gap-8 px-6 md:grid-cols-2 md:px-0'>
-          <CaseStudyCard
-            link={'/caseStudyDetails'}
-            title='Morrent'
-            description='Car Rental Application'
-            img='./img/morrentlaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-t-2xl  bg-blue-400 px-[80px] pt-[72px]'
-          />
-          <CaseStudyCard
-            link={'/caseStudyDetails/jobit'}
-            title='Jobit'
-            description='Job Finding Application'
-            img='./img/jobitlaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-t-2xl  bg-emerald-500 px-[80px] pt-[72px]'
-          />
-          <CaseStudyCard
-            link={'/caseStudyDetails/hipnode'}
-            title='DevOverflow'
-            description='Social Media Application'
-            img='./img/devoverflowlaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-t-2xl  bg-orange-500  px-[80px] pt-[72px]'
-          />
-          <CaseStudyCard
-            link={'/caseStudyDetails/filmpire'}
-            title='Filmpire'
-            description='Movie Application'
-            img='./img/filmpirelaptop.svg'
-            styles='relative flex items-baseline justify-end rounded-t-2xl bg-red-600 px-[80px] pt-[72px]'
-          />
-        </section>
-      </section>
+      <motion.div
+        // variants={staggerContainer}
+        initial='hidden'
+        whileInView='show'
+        viewport={{ once: true, amount: 0.25 }}
+        id='home'
+        className=''
+      >
+        <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className=''>
+          <section className='flex flex-col items-center  bg-white-900 py-20 dark:bg-gray-900'>
+            <section className='grid gap-8 px-6 md:grid-cols-2 md:px-0'>
+              <CaseStudyCard
+                link={'/caseStudyDetails'}
+                title='Morrent'
+                description='Car Rental Application'
+                img='./img/morrentlaptop.svg'
+                styles='relative flex items-baseline justify-end rounded-t-2xl  bg-blue-400 px-[80px] pt-[72px]'
+              />
+              <CaseStudyCard
+                link={'/caseStudyDetails/jobit'}
+                title='Jobit'
+                description='Job Finding Application'
+                img='./img/jobitlaptop.svg'
+                styles='relative flex items-baseline justify-end rounded-t-2xl  bg-emerald-500 px-[80px] pt-[72px]'
+              />
+              <CaseStudyCard
+                link={'/caseStudyDetails/hipnode'}
+                title='DevOverflow'
+                description='Social Media Application'
+                img='./img/devoverflowlaptop.svg'
+                styles='relative flex items-baseline justify-end rounded-t-2xl  bg-orange-500  px-[80px] pt-[72px]'
+              />
+              <CaseStudyCard
+                link={'/caseStudyDetails/filmpire'}
+                title='Filmpire'
+                description='Movie Application'
+                img='./img/filmpirelaptop.svg'
+                styles='relative flex items-baseline justify-end rounded-t-2xl bg-red-600 px-[80px] pt-[72px]'
+              />
+            </section>
+          </section>
+        </motion.div>
+      </motion.div>
 
       <section>
         <ContactMe />
