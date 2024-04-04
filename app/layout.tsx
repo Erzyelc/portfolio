@@ -15,7 +15,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'RJC - Professional Web Development Services',
-  description: 'Discover the exper web development services I provide.',
+  description: 'Discover the expert web development services I provide.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
